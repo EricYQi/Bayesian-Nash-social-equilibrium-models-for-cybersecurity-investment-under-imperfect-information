@@ -1,0 +1,5944 @@
+{
+  "description": "Band-scaling robustness study.  tau_i = c_i - (b_i - a_i) is the admissible translation of the reference budget; the baseline scale 1.0 reproduces Sections 5.1 and 5.2.",
+  "scales": [
+    1.0,
+    0.9,
+    0.75,
+    0.6,
+    0.45,
+    0.35,
+    0.25,
+    0.15,
+    0.05
+  ],
+  "detailed_scales": [
+    1.0,
+    0.6,
+    0.35
+  ],
+  "two_department_sweep": [
+    {
+      "scale": 1.0,
+      "a": -0.15,
+      "b": 0.045,
+      "feasible_interval_width": 0.195,
+      "budget_translation_span": 0.004999999999999977,
+      "ell_M": 0.04333426100177494,
+      "mu_N": 0.6231535299686897,
+      "L_N": 1.347008469580859,
+      "contraction_holds": true,
+      "rho_interval": [
+        0.18046927248138706,
+        0.5064163124031669
+      ],
+      "rho_0.3_admissible": true,
+      "BNSE_iterations": 61,
+      "BNSE_actions": {
+        "A": [
+          0.10986173919951263,
+          0.15486503484944766
+        ],
+        "B": [
+          0.01583685854651653
+        ]
+      },
+      "BNSE_mean_actions": [
+        0.13236338702448014,
+        0.01583685854651653
+      ],
+      "BNSE_box": {
+        "A": [
+          0.00036373585982177326,
+          0.19536373585982175
+        ],
+        "B": [
+          0.0031904052276487127,
+          0.1981904052276487
+        ]
+      },
+      "BNSE_bounds_active": false
+    },
+    {
+      "scale": 0.9,
+      "a": -0.135,
+      "b": 0.0405,
+      "feasible_interval_width": 0.17550000000000002,
+      "budget_translation_span": 0.02449999999999994,
+      "ell_M": 0.2102826846791509,
+      "mu_N": 0.6231535299686897,
+      "L_N": 1.347008469580859,
+      "contraction_holds": false,
+      "rho_interval": null,
+      "rho_0.3_admissible": false,
+      "BNSE_iterations": 61,
+      "BNSE_actions": {
+        "A": [
+          0.10986173919951263,
+          0.15486503484944766
+        ],
+        "B": [
+          0.01583685854651653
+        ]
+      },
+      "BNSE_mean_actions": [
+        0.13236338702448014,
+        0.01583685854651653
+      ],
+      "BNSE_box": {
+        "A": [
+          0.0017985203833553454,
+          0.17729852038335536
+        ],
+        "B": [
+          0.01568803729847898,
+          0.191188037298479
+        ]
+      },
+      "BNSE_bounds_active": false
+    },
+    {
+      "scale": 0.75,
+      "a": -0.11249999999999999,
+      "b": 0.03375,
+      "feasible_interval_width": 0.14625,
+      "budget_translation_span": 0.053749999999999964,
+      "ell_M": 0.4546799009190835,
+      "mu_N": 0.6231535299686897,
+      "L_N": 1.347008469580859,
+      "contraction_holds": false,
+      "rho_interval": null,
+      "rho_0.3_admissible": false,
+      "BNSE_iterations": 45,
+      "BNSE_actions": {
+        "A": [
+          0.10714836259226586,
+          0.15218685248703467
+        ],
+        "B": [
+          0.03385574003680886
+        ]
+      },
+      "BNSE_mean_actions": [
+        0.12966760753965026,
+        0.03385574003680886
+      ],
+      "BNSE_box": {
+        "A": [
+          0.008603191576060099,
+          0.1548531915760601
+        ],
+        "B": [
+          0.033855740554121105,
+          0.1801057405541211
+        ]
+      },
+      "BNSE_bounds_active": true
+    },
+    {
+      "scale": 0.6,
+      "a": -0.09,
+      "b": 0.027,
+      "feasible_interval_width": 0.11699999999999999,
+      "budget_translation_span": 0.08299999999999996,
+      "ell_M": 0.6920320351929169,
+      "mu_N": 0.6231535299686897,
+      "L_N": 1.347008469580859,
+      "contraction_holds": false,
+      "rho_interval": null,
+      "rho_0.3_admissible": false,
+      "BNSE_iterations": 44,
+      "BNSE_actions": {
+        "A": [
+          0.10489206951316803,
+          0.1364511005132992
+        ],
+        "B": [
+          0.04876661497505372
+        ]
+      },
+      "BNSE_mean_actions": [
+        0.1206715850132336,
+        0.04876661497505372
+      ],
+      "BNSE_box": {
+        "A": [
+          0.01945110086012322,
+          0.13645110086012321
+        ],
+        "B": [
+          0.04876661559276496,
+          0.16576661559276495
+        ]
+      },
+      "BNSE_bounds_active": true
+    },
+    {
+      "scale": 0.45,
+      "a": -0.0675,
+      "b": 0.02025,
+      "feasible_interval_width": 0.08775000000000001,
+      "budget_translation_span": 0.11224999999999996,
+      "ell_M": 0.9225421715646729,
+      "mu_N": 0.6231535299686897,
+      "L_N": 1.347008469580859,
+      "contraction_holds": false,
+      "rho_interval": null,
+      "rho_0.3_admissible": false,
+      "BNSE_iterations": 41,
+      "BNSE_actions": {
+        "A": [
+          0.10295111097343282,
+          0.1214055134821162
+        ],
+        "B": [
+          0.061541289537718064
+        ]
+      },
+      "BNSE_mean_actions": [
+        0.11217831222777451,
+        0.061541289537718064
+      ],
+      "BNSE_box": {
+        "A": [
+          0.03365551430356481,
+          0.12140551430356482
+        ],
+        "B": [
+          0.061541290594067904,
+          0.1492912905940679
+        ]
+      },
+      "BNSE_bounds_active": true
+    },
+    {
+      "scale": 0.35,
+      "a": -0.0525,
+      "b": 0.01575,
+      "feasible_interval_width": 0.06825,
+      "budget_translation_span": 0.13174999999999998,
+      "ell_M": 1.0725121191302158,
+      "mu_N": 0.6231535299686897,
+      "L_N": 1.347008469580859,
+      "contraction_holds": false,
+      "rho_interval": null,
+      "rho_0.3_admissible": false,
+      "BNSE_iterations": 39,
+      "BNSE_actions": {
+        "A": [
+          0.10174909783908832,
+          0.11317197532816589
+        ],
+        "B": [
+          0.06942842716195285
+        ]
+      },
+      "BNSE_mean_actions": [
+        0.10746053658362711,
+        0.06942842716195285
+      ],
+      "BNSE_box": {
+        "A": [
+          0.04492197658325701,
+          0.113171976583257
+        ],
+        "B": [
+          0.06942842850940731,
+          0.1376784285094073
+        ]
+      },
+      "BNSE_bounds_active": false
+    },
+    {
+      "scale": 0.25,
+      "a": -0.0375,
+      "b": 0.01125,
+      "feasible_interval_width": 0.04875,
+      "budget_translation_span": 0.15124999999999994,
+      "ell_M": 1.2195859813197696,
+      "mu_N": 0.6231535299686897,
+      "L_N": 1.347008469580859,
+      "contraction_holds": false,
+      "rho_interval": null,
+      "rho_0.3_admissible": false,
+      "BNSE_iterations": 36,
+      "BNSE_actions": {
+        "A": [
+          0.10058258633091613,
+          0.10640411634070532
+        ],
+        "B": [
+          0.07706511248337397
+        ]
+      },
+      "BNSE_mean_actions": [
+        0.10349335133581072,
+        0.07706511248337397
+      ],
+      "BNSE_box": {
+        "A": [
+          0.05765411823807603,
+          0.10640411823807602
+        ],
+        "B": [
+          0.07706511418779305,
+          0.12581511418779304
+        ]
+      },
+      "BNSE_bounds_active": false
+    },
+    {
+      "scale": 0.15,
+      "a": -0.0225,
+      "b": 0.00675,
+      "feasible_interval_width": 0.029249999999999998,
+      "budget_translation_span": 0.17074999999999996,
+      "ell_M": 1.3638196847415738,
+      "mu_N": 0.6231535299686897,
+      "L_N": 1.347008469580859,
+      "contraction_holds": false,
+      "rho_interval": null,
+      "rho_0.3_admissible": false,
+      "BNSE_iterations": 36,
+      "BNSE_actions": {
+        "A": [
+          0.09941109876696566,
+          0.10125655890175679
+        ],
+        "B": [
+          0.08471711659827169
+        ]
+      },
+      "BNSE_mean_actions": [
+        0.10033382883436123,
+        0.08471711659827169
+      ],
+      "BNSE_box": {
+        "A": [
+          0.07200656015781476,
+          0.10125656015781477
+        ],
+        "B": [
+          0.08471711726191439,
+          0.11396711726191439
+        ]
+      },
+      "BNSE_bounds_active": true
+    },
+    {
+      "scale": 0.05,
+      "a": -0.0075,
+      "b": 0.00225,
+      "feasible_interval_width": 0.00975,
+      "budget_translation_span": 0.19024999999999995,
+      "ell_M": 1.5102711069896297,
+      "mu_N": 0.6231535299686897,
+      "L_N": 1.347008469580859,
+      "contraction_holds": false,
+      "rho_interval": null,
+      "rho_0.3_admissible": false,
+      "BNSE_iterations": 212,
+      "BNSE_actions": {
+        "A": [
+          0.09766381144042208,
+          0.09766381144042208
+        ],
+        "B": [
+          0.09231549456887181
+        ]
+      },
+      "BNSE_mean_actions": [
+        0.09766381144042208,
+        0.09231549456887181
+      ],
+      "BNSE_box": {
+        "A": [
+          0.08791381205368648,
+          0.09766381205368649
+        ],
+        "B": [
+          0.09231549179300977,
+          0.10206549179300976
+        ]
+      },
+      "BNSE_bounds_active": true
+    }
+  ],
+  "two_department_threshold": {
+    "critical_scale": 0.9920525848865509,
+    "a": -0.14880788773298262,
+    "b": 0.04464236631989479,
+    "feasible_interval_width": 0.1934502540528774,
+    "largest_certified_translation": 0.006549745947122543,
+    "ell_M": 0.056721753222702564,
+    "mu_N": 0.6231535299686897,
+    "L_N": 1.347008469580859,
+    "rho_interval": [
+      0.3433918076269387,
+      0.34349377725761526
+    ]
+  },
+  "three_department_sweep": [
+    {
+      "scale": 1.0,
+      "a": -0.1,
+      "b": 0.099,
+      "feasible_interval_width": 0.199,
+      "budget_translation_span": 0.0009999999999999454,
+      "ell_M": 0.007322918093129179,
+      "mu_N": 0.27879551789800605,
+      "L_N": 1.0617182788382986,
+      "contraction_holds": true,
+      "rho_interval": [
+        0.05924332455792631,
+        0.43540574263807136
+      ],
+      "rho_0.3_admissible": true,
+      "BNSE_iterations": 88,
+      "BNSE_actions": {
+        "A": [
+          0.14655601133674767,
+          0.1931425191532272
+        ],
+        "B": [
+          0.05275938805464415
+        ],
+        "C": [
+          0.08165749449031083,
+          0.17894433007640928
+        ]
+      },
+      "BNSE_mean_actions": [
+        0.16984926524498745,
+        0.05275938805464415,
+        0.12057222872475021
+      ],
+      "BNSE_box": {
+        "A": [
+          0.00039975377540314716,
+          0.19939975377540314
+        ],
+        "B": [
+          0.0006943019977713877,
+          0.19969430199777138
+        ],
+        "C": [
+          0.0005477962757130389,
+          0.19954779627571306
+        ]
+      },
+      "BNSE_bounds_active": false
+    },
+    {
+      "scale": 0.9,
+      "a": -0.09000000000000001,
+      "b": 0.08910000000000001,
+      "feasible_interval_width": 0.17910000000000004,
+      "budget_translation_span": 0.020899999999999933,
+      "ell_M": 0.1515364534430538,
+      "mu_N": 0.27879551789800605,
+      "L_N": 1.0617182788382986,
+      "contraction_holds": false,
+      "rho_interval": null,
+      "rho_0.3_admissible": false,
+      "BNSE_iterations": 84,
+      "BNSE_actions": {
+        "A": [
+          0.1464779791210662,
+          0.18753765133240818
+        ],
+        "B": [
+          0.05308739513640237
+        ],
+        "C": [
+          0.0819754241218803,
+          0.17924898776539494
+        ]
+      },
+      "BNSE_mean_actions": [
+        0.1670078152267372,
+        0.05308739513640237,
+        0.12088484957928616
+      ],
+      "BNSE_box": {
+        "A": [
+          0.008437651264483315,
+          0.18753765126448335
+        ],
+        "B": [
+          0.014414383166855116,
+          0.19351438316685515
+        ],
+        "C": [
+          0.011368746535839663,
+          0.19046874653583967
+        ]
+      },
+      "BNSE_bounds_active": true
+    },
+    {
+      "scale": 0.75,
+      "a": -0.07500000000000001,
+      "b": 0.07425000000000001,
+      "feasible_interval_width": 0.14925000000000002,
+      "budget_translation_span": 0.050749999999999934,
+      "ell_M": 0.3625465153223764,
+      "mu_N": 0.27879551789800605,
+      "L_N": 1.0617182788382986,
+      "contraction_holds": false,
+      "rho_interval": null,
+      "rho_0.3_admissible": false,
+      "BNSE_iterations": 84,
+      "BNSE_actions": {
+        "A": [
+          0.1464124832207576,
+          0.16998846795247832
+        ],
+        "B": [
+          0.05431774482684222
+        ],
+        "C": [
+          0.08293259984826136,
+          0.17608141661620613
+        ]
+      },
+      "BNSE_mean_actions": [
+        0.15820047558661796,
+        0.05431774482684222,
+        0.12019212655543926
+      ],
+      "BNSE_box": {
+        "A": [
+          0.020738467819845494,
+          0.1699884678198455
+        ],
+        "B": [
+          0.0338930250577317,
+          0.18314302505773172
+        ],
+        "C": [
+          0.0268314166992938,
+          0.17608141669929384
+        ]
+      },
+      "BNSE_bounds_active": true
+    },
+    {
+      "scale": 0.6,
+      "a": -0.06,
+      "b": 0.0594,
+      "feasible_interval_width": 0.1194,
+      "budget_translation_span": 0.08059999999999995,
+      "ell_M": 0.5692757155094914,
+      "mu_N": 0.27879551789800605,
+      "L_N": 1.0617182788382986,
+      "contraction_holds": false,
+      "rho_interval": null,
+      "rho_0.3_admissible": false,
+      "BNSE_iterations": 83,
+      "BNSE_actions": {
+        "A": [
+          0.14686149426796394,
+          0.15189561662271475
+        ],
+        "B": [
+          0.05617238255293035
+        ],
+        "C": [
+          0.0838111115713585,
+          0.1609088574728567
+        ]
+      },
+      "BNSE_mean_actions": [
+        0.14937855544533934,
+        0.05617238255293035,
+        0.11465020993195778
+      ],
+      "BNSE_box": {
+        "A": [
+          0.03249561639850222,
+          0.15189561639850221
+        ],
+        "B": [
+          0.05108176946199526,
+          0.17048176946199525
+        ],
+        "C": [
+          0.04150885761204286,
+          0.16090885761204285
+        ]
+      },
+      "BNSE_bounds_active": true
+    },
+    {
+      "scale": 0.45,
+      "a": -0.045000000000000005,
+      "b": 0.044550000000000006,
+      "feasible_interval_width": 0.08955000000000002,
+      "budget_translation_span": 0.11044999999999994,
+      "ell_M": 0.7776483238793742,
+      "mu_N": 0.27879551789800605,
+      "L_N": 1.0617182788382986,
+      "contraction_holds": false,
+      "rho_interval": null,
+      "rho_0.3_admissible": false,
+      "BNSE_iterations": 78,
+      "BNSE_actions": {
+        "A": [
+          0.13522091641422496,
+          0.13522091641422496
+        ],
+        "B": [
+          0.0647151125693691
+        ],
+        "C": [
+          0.08451795373151197,
+          0.14529327014727939
+        ]
+      },
+      "BNSE_mean_actions": [
+        0.13522091641422496,
+        0.0647151125693691,
+        0.10882808029781893
+      ],
+      "BNSE_box": {
+        "A": [
+          0.045670915648826256,
+          0.13522091564882627
+        ],
+        "B": [
+          0.06471511178484474,
+          0.15426511178484476
+        ],
+        "C": [
+          0.05574326963615638,
+          0.1452932696361564
+        ]
+      },
+      "BNSE_bounds_active": true
+    },
+    {
+      "scale": 0.35,
+      "a": -0.034999999999999996,
+      "b": 0.03465,
+      "feasible_interval_width": 0.06964999999999999,
+      "budget_translation_span": 0.13034999999999994,
+      "ell_M": 0.9160844613711343,
+      "mu_N": 0.27879551789800605,
+      "L_N": 1.0617182788382986,
+      "contraction_holds": false,
+      "rho_interval": null,
+      "rho_0.3_admissible": false,
+      "BNSE_iterations": 75,
+      "BNSE_actions": {
+        "A": [
+          0.12491804700949276,
+          0.12491804700949276
+        ],
+        "B": [
+          0.07195645609574283
+        ],
+        "C": [
+          0.08490293174876215,
+          0.13476322489627438
+        ]
+      },
+      "BNSE_mean_actions": [
+        0.12491804700949276,
+        0.07195645609574283,
+        0.10484704900776703
+      ],
+      "BNSE_box": {
+        "A": [
+          0.05526804580938944,
+          0.12491804580938944
+        ],
+        "B": [
+          0.07195645487673372,
+          0.1416064548767337
+        ],
+        "C": [
+          0.06511322394825664,
+          0.13476322394825663
+        ]
+      },
+      "BNSE_bounds_active": true
+    },
+    {
+      "scale": 0.25,
+      "a": -0.025,
+      "b": 0.02475,
+      "feasible_interval_width": 0.04975,
+      "budget_translation_span": 0.15024999999999997,
+      "ell_M": 1.0542485029488213,
+      "mu_N": 0.27879551789800605,
+      "L_N": 1.0617182788382986,
+      "contraction_holds": false,
+      "rho_interval": null,
+      "rho_0.3_admissible": false,
+      "BNSE_iterations": 71,
+      "BNSE_actions": {
+        "A": [
+          0.11441879867378263,
+          0.11441879867378263
+        ],
+        "B": [
+          0.07774351126416537
+        ],
+        "C": [
+          0.08549488215865132,
+          0.12340677397423133
+        ]
+      },
+      "BNSE_mean_actions": [
+        0.11441879867378263,
+        0.07774351126416537,
+        0.10065963888488333
+      ],
+      "BNSE_box": {
+        "A": [
+          0.06466879689851887,
+          0.11441879689851886
+        ],
+        "B": [
+          0.07774350947327197,
+          0.12749350947327195
+        ],
+        "C": [
+          0.07365677234386298,
+          0.12340677234386296
+        ]
+      },
+      "BNSE_bounds_active": false
+    },
+    {
+      "scale": 0.15,
+      "a": -0.015,
+      "b": 0.01485,
+      "feasible_interval_width": 0.02985,
+      "budget_translation_span": 0.17014999999999997,
+      "ell_M": 1.192235838049059,
+      "mu_N": 0.27879551789800605,
+      "L_N": 1.0617182788382986,
+      "contraction_holds": false,
+      "rho_interval": null,
+      "rho_0.3_admissible": false,
+      "BNSE_iterations": 65,
+      "BNSE_actions": {
+        "A": [
+          0.10326572210078387,
+          0.10326572210078387
+        ],
+        "B": [
+          0.08175655117944058
+        ],
+        "C": [
+          0.08639045097083349,
+          0.11064301203058785
+        ]
+      },
+      "BNSE_mean_actions": [
+        0.10326572210078387,
+        0.08175655117944058,
+        0.09609147539473523
+      ],
+      "BNSE_box": {
+        "A": [
+          0.07341571989900088,
+          0.10326571989900088
+        ],
+        "B": [
+          0.08175654896963296,
+          0.11160654896963296
+        ],
+        "C": [
+          0.08079300967967838,
+          0.11064300967967838
+        ]
+      },
+      "BNSE_bounds_active": false
+    },
+    {
+      "scale": 0.05,
+      "a": -0.005000000000000001,
+      "b": 0.00495,
+      "feasible_interval_width": 0.00995,
+      "budget_translation_span": 0.19004999999999994,
+      "ell_M": 1.3301420407702607,
+      "mu_N": 0.27879551789800605,
+      "L_N": 1.0617182788382986,
+      "contraction_holds": false,
+      "rho_interval": null,
+      "rho_0.3_admissible": false,
+      "BNSE_iterations": 66,
+      "BNSE_actions": {
+        "A": [
+          0.09066721364709443,
+          0.09066721364709443
+        ],
+        "B": [
+          0.08332346642433351
+        ],
+        "C": [
+          0.0877709031990678,
+          0.09539886798627666
+        ]
+      },
+      "BNSE_mean_actions": [
+        0.09066721364709443,
+        0.08332346642433351,
+        0.09082208911395134
+      ],
+      "BNSE_box": {
+        "A": [
+          0.08071721509255382,
+          0.09066721509255382
+        ],
+        "B": [
+          0.08332346786966693,
+          0.09327346786966693
+        ],
+        "C": [
+          0.08544886980732713,
+          0.09539886980732713
+        ]
+      },
+      "BNSE_bounds_active": false
+    }
+  ],
+  "three_department_threshold": {
+    "critical_scale": 0.9929762370884418,
+    "a": -0.0992976237088442,
+    "b": 0.09830464747175575,
+    "feasible_interval_width": 0.19760227118059995,
+    "largest_certified_translation": 0.002397728819400008,
+    "ell_M": 0.01754610859176025,
+    "mu_N": 0.27879551789800605,
+    "L_N": 1.0617182788382986,
+    "rho_interval": [
+      0.24729834435563633,
+      0.24735072284036133
+    ]
+  },
+  "two_department_detailed": {
+    "1.0": {
+      "parameters": {
+        "departments": [
+          "A",
+          "B"
+        ],
+        "types": {
+          "A": 2,
+          "B": 1
+        },
+        "W": {
+          "A": [
+            72600.0,
+            72600.0
+          ],
+          "B": [
+            78800.0
+          ]
+        },
+        "D": {
+          "A": [
+            145.0,
+            162.0
+          ],
+          "B": [
+            152.0
+          ]
+        },
+        "alpha": {
+          "A": [
+            0.625,
+            0.625
+          ],
+          "B": [
+            0.75
+          ]
+        },
+        "prob": {
+          "A": [
+            0.5,
+            0.5
+          ],
+          "B": [
+            1.0
+          ]
+        },
+        "delta": {
+          "A": 0.8,
+          "B": 0.8
+        },
+        "a": {
+          "A": -0.15,
+          "B": -0.15
+        },
+        "b": {
+          "A": 0.045,
+          "B": 0.045
+        },
+        "action_cap": {
+          "A": 0.19999999999999996,
+          "B": 0.19999999999999996
+        },
+        "budget_translation_span": {
+          "A": 0.004999999999999977,
+          "B": 0.004999999999999977
+        },
+        "rho": 0.3,
+        "seed": 20260920,
+        "utility_units": "square root of millions of US dollars"
+      },
+      "results": {
+        "BNSE": {
+          "s": {
+            "A": [
+              0.10986173919951263,
+              0.15486503484944766
+            ],
+            "B": [
+              0.01583685854651653
+            ]
+          },
+          "U": {
+            "A": [
+              269.1818535169384,
+              269.1565066454131
+            ],
+            "B": [
+              280.46054048588826
+            ]
+          },
+          "barU": {
+            "A": 269.1691800811758,
+            "B": 280.46054048588826
+          },
+          "iters": 61,
+          "K": {
+            "A": [
+              0.00036373585982177326,
+              0.19536373585982175
+            ],
+            "B": [
+              0.0031904052276487127,
+              0.1981904052276487
+            ]
+          }
+        },
+        "BNSB": {
+          "s": {
+            "A": [
+              0.19729684139440146,
+              0.19729684139440146
+            ],
+            "B": [
+              0.09638693054839759
+            ]
+          },
+          "U": {
+            "A": [
+              269.1869161233623,
+              269.1652892010864
+            ],
+            "B": [
+              280.4655696522299
+            ]
+          },
+          "barU": {
+            "A": 269.17610266222437,
+            "B": 280.4655696522299
+          },
+          "iters": 10,
+          "K": {
+            "A": [
+              0.00229684139440145,
+              0.19729684139440146
+            ],
+            "B": [
+              0.004925191042326499,
+              0.19992519104232648
+            ]
+          }
+        },
+        "BNSO": {
+          "s": {
+            "A": [
+              0.19806008163340588,
+              0.19806008163340588
+            ],
+            "B": [
+              0.12663922135848088
+            ]
+          },
+          "U": {
+            "A": [
+              269.1901074765414,
+              269.1688938544666
+            ],
+            "B": [
+              280.46268089832574
+            ]
+          },
+          "barU": {
+            "A": 269.179500665504,
+            "B": 280.46268089832574
+          },
+          "iters": 5,
+          "K": {
+            "A": [
+              0.0030600816334451497,
+              0.19806008163344513
+            ],
+            "B": [
+              0.004946291996874602,
+              0.19994629199687458
+            ]
+          }
+        }
+      },
+      "certificates": {
+        "coordinates": [
+          "A:t0",
+          "A:t1",
+          "B:t0"
+        ],
+        "Delta": [
+          0.2692072222869797,
+          0.300787083861735,
+          0.2708694753411578
+        ],
+        "d_minus_N": [
+          0.7379572222869797,
+          0.769537083861735,
+          0.8333694753411578
+        ],
+        "d_plus_N": [
+          1.0880797726409064,
+          1.1196596342156617,
+          1.25351653576587
+        ],
+        "d_minus_O": [
+          0.36897861114348984,
+          0.3847685419308675,
+          0.8333694753411578
+        ],
+        "d_plus_O": [
+          0.5440398863204532,
+          0.5598298171078309,
+          1.25351653576587
+        ],
+        "mu_N": 0.6231535299686897,
+        "L_N": 1.347008469580859,
+        "mu_O": 0.23395943673645547,
+        "L_O": 1.304889968692136,
+        "strong_concavity_O": true,
+        "omega": [
+          0.9304117686347849,
+          1.074792939761847
+        ],
+        "gamma": {
+          "A": 0.02732974536170236,
+          "B": 0.02771383096935424
+        },
+        "band_translation_span": [
+          0.004999999999999977,
+          0.004999999999999977
+        ],
+        "ell_M": 0.04333426100177494,
+        "BNSE_contraction_test": {
+          "mu_positive": true,
+          "ell_M_below_one_half": true,
+          "discriminant": 0.0874410566744312,
+          "holds": true,
+          "rho_interval": [
+            0.18046927248138706,
+            0.5064163124031669
+          ],
+          "rho_0.3_admissible": true,
+          "contraction_bound_at_rho_0.3": 0.9751541693607918,
+          "best_contraction_bound": 0.9732250128981184
+        },
+        "BNSO_contraction_test": {
+          "mu_positive": true,
+          "ell_M_below_one_half": true,
+          "discriminant": -0.2276205235719719,
+          "holds": false,
+          "rho_interval": null,
+          "rho_0.3_admissible": false,
+          "contraction_bound_at_rho_0.3": 1.0930833185429933,
+          "best_contraction_bound": 1.0704639914083962
+        }
+      },
+      "validation": {
+        "BNSE": {
+          "iterations": 61,
+          "rho": 0.3,
+          "natural_QVI_tolerance": 1e-08,
+          "final_step_residual_inf": 2.892722443526008e-09,
+          "max_box_violation": 0.0,
+          "natural_QVI_residual_inf": 7.461129603036909e-09,
+          "feasible": true,
+          "solver_success": true
+        },
+        "BNSB": {
+          "outer_iterations": 10,
+          "outer_step_residual_inf": 0.0,
+          "frozen_set_verification_residual_inf": 0.0,
+          "outer_fixed_point_residual_inf": 0.0,
+          "outer_fixed_point_tolerance": 1e-06,
+          "max_box_violation": 0.0,
+          "SLSQP_status": 0,
+          "SLSQP_message": "Optimization terminated successfully",
+          "objective": -10.265467640856269,
+          "KKT_stationarity_residual_inf": 3.901616025814292e-07,
+          "objective_gradient_norm_inf": 8.036582940924458,
+          "KKT_relative_residual": 4.854819585008208e-08,
+          "active_constraints": [
+            "upper[A:t0]",
+            "upper[A:t1]"
+          ],
+          "active_multipliers": [
+            5.175132697032009,
+            8.036582940924458
+          ],
+          "active_tolerance": 1e-05,
+          "finite_difference_audit_of_analytic_gradient": {
+            "0.0001": 1.7001570896013618e-05,
+            "1e-05": 5.232082607165012e-07,
+            "1e-06": 7.3119407808519554e-06,
+            "1e-07": 0.00010041808903338278
+          },
+          "KKT_residual_finite_difference_variant": {
+            "0.0001": 1.7391732498595047e-05,
+            "1e-05": 7.428724302371846e-07,
+            "1e-06": 6.874500968478969e-07,
+            "1e-07": 0.00010080825063596421
+          },
+          "IR_surplus_by_department": {
+            "A": 0.006922581048570464,
+            "B": 0.005029166341614655
+          },
+          "min_IR_surplus": 0.005029166341614655,
+          "log_objective_is_exact": true,
+          "feasible": true,
+          "outer_fixed_point_converged": true,
+          "multistart": {
+            "starts": 6,
+            "successful_starts": 6,
+            "solution_spread_inf": 5.790727203303092e-10,
+            "objective_spread": 1.8401813406399015e-10,
+            "runs": [
+              {
+                "start": 0,
+                "success": true,
+                "objective": -10.26546764097628,
+                "outer_iterations": 10,
+                "outer_residual_inf": 0.0,
+                "x": [
+                  0.19729684138536946,
+                  0.19729684138536946,
+                  0.09638693018545129
+                ]
+              },
+              {
+                "start": 1,
+                "success": true,
+                "objective": -10.265467641024744,
+                "outer_iterations": 9,
+                "outer_residual_inf": 6.896261339761622e-12,
+                "x": [
+                  0.19729684138123382,
+                  0.19729684138123382,
+                  0.09638693001926836
+                ]
+              },
+              {
+                "start": 2,
+                "success": true,
+                "objective": -10.265467641040102,
+                "outer_iterations": 7,
+                "outer_residual_inf": 3.9719061373233444e-12,
+                "x": [
+                  0.19729684138118353,
+                  0.19729684138118353,
+                  0.09638693001724873
+                ]
+              },
+              {
+                "start": 3,
+                "success": true,
+                "objective": -10.265467641040287,
+                "outer_iterations": 8,
+                "outer_residual_inf": 3.383959779057477e-11,
+                "x": [
+                  0.19729684138083303,
+                  0.19729684138083303,
+                  0.09638692996932487
+                ]
+              },
+              {
+                "start": 4,
+                "success": true,
+                "objective": -10.265467640856269,
+                "outer_iterations": 10,
+                "outer_residual_inf": 0.0,
+                "x": [
+                  0.19729684139440146,
+                  0.19729684139440146,
+                  0.09638693054839759
+                ]
+              },
+              {
+                "start": 5,
+                "success": true,
+                "objective": -10.2654676410402,
+                "outer_iterations": 8,
+                "outer_residual_inf": 1.0682510431792025e-11,
+                "x": [
+                  0.19729684138131354,
+                  0.19729684138131354,
+                  0.09638693002247034
+                ]
+              }
+            ]
+          },
+          "start_rule": "convex combinations (1-w) s^N + w s^O with w in [0.25, 0.4, 0.55, 0.7, 0.85, 0.5]",
+          "reduced_hessian_frozen_problem": {
+            "free_coordinates": [
+              "B:t0"
+            ],
+            "blocked_coordinates": [
+              "A:t0",
+              "A:t1"
+            ],
+            "eigenvalues_h=0.0001": [
+              -744.0051770400657
+            ],
+            "negative_definite_h=0.0001": true,
+            "eigenvalues_h=1e-05": [
+              -744.0023888685587
+            ],
+            "negative_definite_h=1e-05": true,
+            "eigenvalues_h=1e-06": [
+              -744.0024714000515
+            ],
+            "negative_definite_h=1e-06": true
+          },
+          "frozen_set_global_certificate": {
+            "incumbent_log_nash": -10.265467640856269,
+            "incumbent_nash_product": 3.4814811606570066e-05,
+            "certified_upper_bound_log_nash": -10.26446764085627,
+            "certified_gap_log_nash": 0.0009999999999994458,
+            "certified_relative_gap_nash_product": 0.001000500166707787,
+            "target_tolerance": 0.001,
+            "certified": true,
+            "search_exhausted": true,
+            "nodes_explored": 1715,
+            "pruned_nodes": 858,
+            "open_nodes": 0,
+            "smallest_cell_width": 4.760742187498446e-05,
+            "seconds": 34.6928071975708,
+            "aggregate_box": [
+              [
+                0.00229684139440145,
+                0.004925191042326499
+              ],
+              [
+                0.19729684139440146,
+                0.19992519104232648
+              ]
+            ]
+          }
+        },
+        "BNSO": {
+          "outer_iterations": 5,
+          "outer_step_residual_inf": 0.0,
+          "frozen_set_verification_residual_inf": 0.0,
+          "outer_fixed_point_residual_inf": 0.0,
+          "outer_fixed_point_tolerance": 1e-06,
+          "max_box_violation": 0.0,
+          "SLSQP_status": 0,
+          "SLSQP_message": "Optimization terminated successfully",
+          "objective": 549.6421815638298,
+          "KKT_stationarity_residual_inf": 3.387962448087034e-08,
+          "objective_gradient_norm_inf": 0.02784804793053837,
+          "KKT_relative_residual": 1.2165888454866418e-06,
+          "active_constraints": [
+            "upper[A:t0]",
+            "upper[A:t1]"
+          ],
+          "active_multipliers": [
+            0.008290319000314614,
+            0.02784804793053837
+          ],
+          "active_tolerance": 1e-05,
+          "finite_difference_audit_of_analytic_gradient": {
+            "0.0001": 3.637031967262949e-09,
+            "1e-05": 9.423439931155464e-09,
+            "1e-06": 6.626685879196348e-08,
+            "1e-07": 4.570306285228698e-07
+          },
+          "KKT_residual_finite_difference_variant": {
+            "0.0001": 3.751665644813329e-08,
+            "1e-05": 3.410605131648481e-08,
+            "1e-06": 5.6843418860808015e-08,
+            "1e-07": 0.0
+          },
+          "feasible": true,
+          "outer_fixed_point_converged": true,
+          "multistart": {
+            "starts": 6,
+            "successful_starts": 6,
+            "solution_spread_inf": 2.809970969797071e-08,
+            "objective_spread": 2.6147972675971687e-11,
+            "runs": [
+              {
+                "start": 0,
+                "success": true,
+                "objective": 549.6421815638037,
+                "outer_iterations": 6,
+                "outer_residual_inf": 0.0,
+                "x": [
+                  0.19806008091476307,
+                  0.19806008091476307,
+                  0.12663919325877118
+                ]
+              },
+              {
+                "start": 1,
+                "success": true,
+                "objective": 549.6421815638298,
+                "outer_iterations": 5,
+                "outer_residual_inf": 0.0,
+                "x": [
+                  0.19806008163340588,
+                  0.19806008163340588,
+                  0.12663922135848088
+                ]
+              },
+              {
+                "start": 2,
+                "success": true,
+                "objective": 549.6421815638046,
+                "outer_iterations": 6,
+                "outer_residual_inf": 0.0,
+                "x": [
+                  0.19806008093532357,
+                  0.19806008093532357,
+                  0.1266391940626629
+                ]
+              },
+              {
+                "start": 3,
+                "success": true,
+                "objective": 549.6421815638045,
+                "outer_iterations": 5,
+                "outer_residual_inf": 0.0,
+                "x": [
+                  0.19806008093393324,
+                  0.19806008093393324,
+                  0.12663919400830537
+                ]
+              },
+              {
+                "start": 4,
+                "success": true,
+                "objective": 549.6421815638064,
+                "outer_iterations": 5,
+                "outer_residual_inf": 0.0,
+                "x": [
+                  0.1980600809851047,
+                  0.1980600809851047,
+                  0.12663919600905393
+                ]
+              },
+              {
+                "start": 5,
+                "success": true,
+                "objective": 549.64218156381,
+                "outer_iterations": 6,
+                "outer_residual_inf": 0.0,
+                "x": [
+                  0.19806008108896556,
+                  0.19806008108896556,
+                  0.12663920006990187
+                ]
+              }
+            ]
+          },
+          "start_rule": "start 0: uniform s=0.1; start 1: BNSE; starts 2-5: uniform random on the action set, numpy default_rng(20260920)"
+        }
+      },
+      "economics": {
+        "BNSE": {
+          "A": {
+            "exante_utility": 269.1691800811758,
+            "expected_breach_probability": 0.8035977954982594,
+            "expected_monetary_loss_musd": 123.09219646144041,
+            "expected_protection_cost_utils": 0.046151648178797966,
+            "mean_action": 0.13236338702448014
+          },
+          "B": {
+            "exante_utility": 280.46054048588826,
+            "expected_breach_probability": 0.9112365318308185,
+            "expected_monetary_loss_musd": 138.5079528382844,
+            "expected_protection_cost_utils": 0.006010305187058862,
+            "mean_action": 0.01583685854651653
+          }
+        },
+        "BNSB": {
+          "A": {
+            "exante_utility": 269.17610266222437,
+            "expected_breach_probability": 0.684832712920753,
+            "expected_monetary_loss_musd": 105.12182143333558,
+            "expected_protection_cost_utils": 0.07259367041063003,
+            "mean_action": 0.19729684139440146
+          },
+          "B": {
+            "exante_utility": 280.4655696522299,
+            "expected_breach_probability": 0.7709248221449239,
+            "expected_monetary_loss_musd": 117.18057296602842,
+            "expected_protection_cost_utils": 0.03898729803226908,
+            "mean_action": 0.09638693054839759
+          }
+        },
+        "BNSO": {
+          "A": {
+            "exante_utility": 269.179500665504,
+            "expected_breach_probability": 0.6717452520990922,
+            "expected_monetary_loss_musd": 103.11289619721066,
+            "expected_protection_cost_utils": 0.07292555620616495,
+            "mean_action": 0.19806008163340588
+          },
+          "B": {
+            "exante_utility": 280.46268089832574,
+            "expected_breach_probability": 0.7315709605988427,
+            "expected_monetary_loss_musd": 111.1987860110241,
+            "expected_protection_cost_utils": 0.05253581176601768,
+            "mean_action": 0.12663922135848088
+          }
+        },
+        "BNSB_vs_BNSE": {
+          "A": {
+            "exante_utility": {
+              "baseline": 269.1691800811758,
+              "value": 269.17610266222437,
+              "change": 0.006922581048570464,
+              "percent_change": 0.0025718327211468857
+            },
+            "expected_breach_probability": {
+              "baseline": 0.8035977954982594,
+              "value": 0.684832712920753,
+              "change": -0.1187650825775064,
+              "percent_change": -14.779169784042002
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 123.09219646144041,
+              "value": 105.12182143333558,
+              "change": -17.970375028104826,
+              "percent_change": -14.59911801454789
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.046151648178797966,
+              "value": 0.07259367041063003,
+              "change": 0.026442022231832063,
+              "percent_change": 57.293776658618896
+            },
+            "mean_action": {
+              "baseline": 0.13236338702448014,
+              "value": 0.19729684139440146,
+              "change": 0.06493345436992132,
+              "percent_change": 49.0569604099902
+            }
+          },
+          "B": {
+            "exante_utility": {
+              "baseline": 280.46054048588826,
+              "value": 280.4655696522299,
+              "change": 0.005029166341614655,
+              "percent_change": 0.001793181433973491
+            },
+            "expected_breach_probability": {
+              "baseline": 0.9112365318308185,
+              "value": 0.7709248221449239,
+              "change": -0.14031170968589468,
+              "percent_change": -15.397946063903543
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 138.5079528382844,
+              "value": 117.18057296602842,
+              "change": -21.32737987225599,
+              "percent_change": -15.397946063903541
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.006010305187058862,
+              "value": 0.03898729803226908,
+              "change": 0.03297699284521022,
+              "percent_change": 548.6741824061596
+            },
+            "mean_action": {
+              "baseline": 0.01583685854651653,
+              "value": 0.09638693054839759,
+              "change": 0.08055007200188105,
+              "percent_change": 508.624054229485
+            }
+          }
+        },
+        "BNSO_vs_BNSE": {
+          "A": {
+            "exante_utility": {
+              "baseline": 269.1691800811758,
+              "value": 269.179500665504,
+              "change": 0.01032058432821259,
+              "percent_change": 0.003834237012238963
+            },
+            "expected_breach_probability": {
+              "baseline": 0.8035977954982594,
+              "value": 0.6717452520990922,
+              "change": -0.1318525433991672,
+              "percent_change": -16.407778136998733
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 123.09219646144041,
+              "value": 103.11289619721066,
+              "change": -19.97930026422975,
+              "percent_change": -16.23116723771228
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.046151648178797966,
+              "value": 0.07292555620616495,
+              "change": 0.026773908027366983,
+              "percent_change": 58.01289679545377
+            },
+            "mean_action": {
+              "baseline": 0.13236338702448014,
+              "value": 0.19806008163340588,
+              "change": 0.06569669460892574,
+              "percent_change": 49.63358530314382
+            }
+          },
+          "B": {
+            "exante_utility": {
+              "baseline": 280.46054048588826,
+              "value": 280.46268089832574,
+              "change": 0.002140412437483974,
+              "percent_change": 0.0007631777482050711
+            },
+            "expected_breach_probability": {
+              "baseline": 0.9112365318308185,
+              "value": 0.7315709605988427,
+              "change": -0.1796655712319758,
+              "percent_change": -19.716677827983826
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 138.5079528382844,
+              "value": 111.1987860110241,
+              "change": -27.309166827260313,
+              "percent_change": -19.716677827983826
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.006010305187058862,
+              "value": 0.05253581176601768,
+              "change": 0.04652550657895882,
+              "percent_change": 774.0955763633366
+            },
+            "mean_action": {
+              "baseline": 0.01583685854651653,
+              "value": 0.12663922135848088,
+              "change": 0.11080236281196434,
+              "percent_change": 699.648623409195
+            }
+          }
+        }
+      },
+      "mean_actions": {
+        "BNSE": [
+          0.13236338702448014,
+          0.01583685854651653
+        ],
+        "BNSB": [
+          0.19729684139440146,
+          0.09638693054839759
+        ],
+        "BNSO": [
+          0.19806008163340588,
+          0.12663922135848088
+        ]
+      },
+      "qualitative_ordering": {
+        "coordination_raises_mean_investment": true,
+        "bargaining_satisfies_participation": true,
+        "welfare_ordering_BNSO_best": true,
+        "some_department_loses_under_BNSO": false
+      }
+    },
+    "0.6": {
+      "parameters": {
+        "departments": [
+          "A",
+          "B"
+        ],
+        "types": {
+          "A": 2,
+          "B": 1
+        },
+        "W": {
+          "A": [
+            72600.0,
+            72600.0
+          ],
+          "B": [
+            78800.0
+          ]
+        },
+        "D": {
+          "A": [
+            145.0,
+            162.0
+          ],
+          "B": [
+            152.0
+          ]
+        },
+        "alpha": {
+          "A": [
+            0.625,
+            0.625
+          ],
+          "B": [
+            0.75
+          ]
+        },
+        "prob": {
+          "A": [
+            0.5,
+            0.5
+          ],
+          "B": [
+            1.0
+          ]
+        },
+        "delta": {
+          "A": 0.8,
+          "B": 0.8
+        },
+        "a": {
+          "A": -0.09,
+          "B": -0.09
+        },
+        "b": {
+          "A": 0.027,
+          "B": 0.027
+        },
+        "action_cap": {
+          "A": 0.19999999999999996,
+          "B": 0.19999999999999996
+        },
+        "budget_translation_span": {
+          "A": 0.08299999999999996,
+          "B": 0.08299999999999996
+        },
+        "rho": 0.3,
+        "seed": 20260920,
+        "utility_units": "square root of millions of US dollars"
+      },
+      "results": {
+        "BNSE": {
+          "s": {
+            "A": [
+              0.10489206951316803,
+              0.1364511005132992
+            ],
+            "B": [
+              0.04876661497505372
+            ]
+          },
+          "U": {
+            "A": [
+              269.1858100189209,
+              269.16061343757565
+            ],
+            "B": [
+              280.4585608556606
+            ]
+          },
+          "barU": {
+            "A": 269.17321172824825,
+            "B": 280.4585608556606
+          },
+          "iters": 44,
+          "K": {
+            "A": [
+              0.01945110086012322,
+              0.13645110086012321
+            ],
+            "B": [
+              0.04876661559276496,
+              0.16576661559276495
+            ]
+          }
+        },
+        "BNSB": {
+          "s": {
+            "A": [
+              0.1514034350162917,
+              0.1514034350162917
+            ],
+            "B": [
+              0.08541995054122192
+            ]
+          },
+          "U": {
+            "A": [
+              269.1890063134624,
+              269.16538101450436
+            ],
+            "B": [
+              280.4607369283661
+            ]
+          },
+          "barU": {
+            "A": 269.1771936639834,
+            "B": 280.4607369283661
+          },
+          "iters": 14,
+          "K": {
+            "A": [
+              0.034403435016259545,
+              0.15140343501625955
+            ],
+            "B": [
+              0.06182150124896349,
+              0.17882150124896348
+            ]
+          }
+        },
+        "BNSO": {
+          "s": {
+            "A": [
+              0.17147691263487824,
+              0.17147691263487824
+            ],
+            "B": [
+              0.13355815679496402
+            ]
+          },
+          "U": {
+            "A": [
+              269.1932076860658,
+              269.1710336087175
+            ],
+            "B": [
+              280.458745300443
+            ]
+          },
+          "barU": {
+            "A": 269.1821206473917,
+            "B": 280.458745300443
+          },
+          "iters": 9,
+          "K": {
+            "A": [
+              0.05447691263487728,
+              0.17147691263487727
+            ],
+            "B": [
+              0.07048987473437487,
+              0.18748987473437487
+            ]
+          }
+        }
+      },
+      "certificates": {
+        "coordinates": [
+          "A:t0",
+          "A:t1",
+          "B:t0"
+        ],
+        "Delta": [
+          0.2692072222869797,
+          0.300787083861735,
+          0.2708694753411578
+        ],
+        "d_minus_N": [
+          0.7379572222869797,
+          0.769537083861735,
+          0.8333694753411578
+        ],
+        "d_plus_N": [
+          1.0880797726409064,
+          1.1196596342156617,
+          1.25351653576587
+        ],
+        "d_minus_O": [
+          0.36897861114348984,
+          0.3847685419308675,
+          0.8333694753411578
+        ],
+        "d_plus_O": [
+          0.5440398863204532,
+          0.5598298171078309,
+          1.25351653576587
+        ],
+        "mu_N": 0.6231535299686897,
+        "L_N": 1.347008469580859,
+        "mu_O": 0.23395943673645547,
+        "L_O": 1.304889968692136,
+        "strong_concavity_O": true,
+        "omega": [
+          0.9304117686347849,
+          1.074792939761847
+        ],
+        "gamma": {
+          "A": 0.43644587139003943,
+          "B": 0.44257957572944767
+        },
+        "band_translation_span": [
+          0.08299999999999996,
+          0.08299999999999996
+        ],
+        "ell_M": 0.6920320351929169,
+        "BNSE_contraction_test": {
+          "mu_positive": true,
+          "ell_M_below_one_half": false,
+          "discriminant": -1.1584733487020529,
+          "holds": false,
+          "rho_interval": null,
+          "rho_0.3_admissible": false,
+          "contraction_bound_at_rho_0.3": 2.272549717743076,
+          "best_contraction_bound": 2.2706205612804022
+        },
+        "BNSO_contraction_test": {
+          "mu_positive": true,
+          "ell_M_below_one_half": false,
+          "discriminant": -1.3968381108334962,
+          "holds": false,
+          "rho_interval": null,
+          "rho_0.3_admissible": false,
+          "contraction_bound_at_rho_0.3": 2.3904788669252772,
+          "best_contraction_bound": 2.3678595397906803
+        }
+      },
+      "validation": {
+        "BNSE": {
+          "iterations": 44,
+          "rho": 0.3,
+          "natural_QVI_tolerance": 1e-08,
+          "final_step_residual_inf": 2.455589800942626e-09,
+          "max_box_violation": 6.177112432670384e-10,
+          "natural_QVI_residual_inf": 5.8902149269179915e-09,
+          "feasible": true,
+          "solver_success": true
+        },
+        "BNSB": {
+          "outer_iterations": 14,
+          "outer_step_residual_inf": 7.86176679312689e-14,
+          "frozen_set_verification_residual_inf": 3.310880235252167e-08,
+          "outer_fixed_point_residual_inf": 3.310880235252167e-08,
+          "outer_fixed_point_tolerance": 1e-06,
+          "max_box_violation": 3.214095656289828e-14,
+          "SLSQP_status": 0,
+          "SLSQP_message": "Optimization terminated successfully",
+          "objective": -11.656220750404126,
+          "KKT_stationarity_residual_inf": 7.589233535298945e-05,
+          "objective_gradient_norm_inf": 27.58630275634634,
+          "KKT_relative_residual": 2.751087596743283e-06,
+          "active_constraints": [
+            "upper[A:t0]",
+            "upper[A:t1]"
+          ],
+          "active_multipliers": [
+            22.40795226575015,
+            27.58630275634634
+          ],
+          "active_tolerance": 1e-05,
+          "finite_difference_audit_of_analytic_gradient": {
+            "0.0001": 7.58455140790204e-05,
+            "1e-05": 6.146170079546209e-07,
+            "1e-06": 1.941720268661129e-05,
+            "1e-07": 4.324791786558535e-05
+          },
+          "KKT_residual_finite_difference_variant": {
+            "0.0001": 0.00014538694692589615,
+            "1e-05": 7.566196558173033e-05,
+            "1e-06": 9.530953803960074e-05,
+            "1e-07": 0.0001191402532185748
+          },
+          "IR_surplus_by_department": {
+            "A": 0.003981935735168918,
+            "B": 0.002176072705481147
+          },
+          "min_IR_surplus": 0.002176072705481147,
+          "log_objective_is_exact": true,
+          "feasible": true,
+          "outer_fixed_point_converged": true,
+          "multistart": {
+            "starts": 6,
+            "successful_starts": 6,
+            "solution_spread_inf": 5.589817610174297e-08,
+            "objective_spread": 1.150976990160757e-06,
+            "runs": [
+              {
+                "start": 0,
+                "success": true,
+                "objective": -11.65622169386875,
+                "outer_iterations": 17,
+                "outer_residual_inf": 0.0,
+                "x": [
+                  0.15140341614498118,
+                  0.15140341614498118,
+                  0.0854199047202407
+                ]
+              },
+              {
+                "start": 1,
+                "success": true,
+                "objective": -11.656221606188511,
+                "outer_iterations": 14,
+                "outer_residual_inf": 2.55351295663786e-15,
+                "x": [
+                  0.15140341789889594,
+                  0.15140341789889594,
+                  0.08541990897888702
+                ]
+              },
+              {
+                "start": 2,
+                "success": true,
+                "objective": -11.656221901381116,
+                "outer_iterations": 16,
+                "outer_residual_inf": 4.926614671774132e-15,
+                "x": [
+                  0.15140341199469665,
+                  0.15140341199469665,
+                  0.08541989464304582
+                ]
+              },
+              {
+                "start": 3,
+                "success": true,
+                "objective": -11.656221243149798,
+                "outer_iterations": 16,
+                "outer_residual_inf": 3.913536161803677e-15,
+                "x": [
+                  0.15140342516037597,
+                  0.15140342516037597,
+                  0.08541992661034027
+                ]
+              },
+              {
+                "start": 4,
+                "success": true,
+                "objective": -11.656220750404126,
+                "outer_iterations": 14,
+                "outer_residual_inf": 7.86176679312689e-14,
+                "x": [
+                  0.1514034350162917,
+                  0.1514034350162917,
+                  0.08541995054122192
+                ]
+              },
+              {
+                "start": 5,
+                "success": true,
+                "objective": -11.656221767162107,
+                "outer_iterations": 26,
+                "outer_residual_inf": 8.100245474373935e-11,
+                "x": [
+                  0.15140341467980234,
+                  0.15140341467980234,
+                  0.0854199011626684
+                ]
+              }
+            ]
+          },
+          "start_rule": "convex combinations (1-w) s^N + w s^O with w in [0.25, 0.4, 0.55, 0.7, 0.85, 0.5]",
+          "reduced_hessian_frozen_problem": {
+            "free_coordinates": [
+              "B:t0"
+            ],
+            "blocked_coordinates": [
+              "A:t0",
+              "A:t1"
+            ],
+            "eigenvalues_h=0.0001": [
+              -2292.0927920228883
+            ],
+            "negative_definite_h=0.0001": true,
+            "eigenvalues_h=1e-05": [
+              -2292.066634862344
+            ],
+            "negative_definite_h=1e-05": true,
+            "eigenvalues_h=1e-06": [
+              -2292.066470241494
+            ],
+            "negative_definite_h=1e-06": true
+          },
+          "frozen_set_global_certificate": {
+            "incumbent_log_nash": -11.656220750404126,
+            "incumbent_nash_product": 8.664981668281086e-06,
+            "certified_upper_bound_log_nash": -11.655220750404126,
+            "certified_gap_log_nash": 0.0009999999999994458,
+            "certified_relative_gap_nash_product": 0.001000500166707787,
+            "target_tolerance": 0.001,
+            "certified": true,
+            "search_exhausted": true,
+            "nodes_explored": 787,
+            "pruned_nodes": 394,
+            "open_nodes": 0,
+            "smallest_cell_width": 2.8564453124990674e-05,
+            "seconds": 16.19521427154541,
+            "aggregate_box": [
+              [
+                0.034403435016259545,
+                0.06182150124896349
+              ],
+              [
+                0.15140343501625955,
+                0.17882150124896348
+              ]
+            ]
+          }
+        },
+        "BNSO": {
+          "outer_iterations": 9,
+          "outer_step_residual_inf": 2.4424906541753444e-15,
+          "frozen_set_verification_residual_inf": 2.4424906541753444e-15,
+          "outer_fixed_point_residual_inf": 2.4424906541753444e-15,
+          "outer_fixed_point_tolerance": 1e-06,
+          "max_box_violation": 9.71445146547012e-16,
+          "SLSQP_status": 0,
+          "SLSQP_message": "Optimization terminated successfully",
+          "objective": 549.6408659478348,
+          "KKT_stationarity_residual_inf": 1.9616043306358577e-07,
+          "objective_gradient_norm_inf": 0.04124402531653824,
+          "KKT_relative_residual": 4.756093314318871e-06,
+          "active_constraints": [
+            "upper[A:t0]",
+            "upper[A:t1]"
+          ],
+          "active_multipliers": [
+            0.021321174743550782,
+            0.04124402531653824
+          ],
+          "active_tolerance": 1e-05,
+          "finite_difference_audit_of_analytic_gradient": {
+            "0.0001": 3.3599671378503615e-09,
+            "1e-05": 8.475874835323056e-09,
+            "1e-06": 3.220686404376005e-08,
+            "1e-07": 3.722737555444944e-07
+          },
+          "KKT_residual_finite_difference_variant": {
+            "0.0001": 1.9952040020143613e-07,
+            "1e-05": 2.0463630789890883e-07,
+            "1e-06": 2.2737367544323206e-07,
+            "1e-07": 5.684341886080801e-07
+          },
+          "feasible": true,
+          "outer_fixed_point_converged": true,
+          "multistart": {
+            "starts": 6,
+            "successful_starts": 6,
+            "solution_spread_inf": 3.0606638334873537e-07,
+            "objective_spread": 8.08381628303323e-09,
+            "runs": [
+              {
+                "start": 0,
+                "success": true,
+                "objective": 549.6408659419842,
+                "outer_iterations": 8,
+                "outer_residual_inf": 0.0,
+                "x": [
+                  0.17147681912452842,
+                  0.17147681912452842,
+                  0.13355793528706006
+                ]
+              },
+              {
+                "start": 1,
+                "success": true,
+                "objective": 549.6408659438762,
+                "outer_iterations": 11,
+                "outer_residual_inf": 0.0,
+                "x": [
+                  0.17147684936493923,
+                  0.17147684936493923,
+                  0.13355800692073896
+                ]
+              },
+              {
+                "start": 2,
+                "success": true,
+                "objective": 549.6408659478348,
+                "outer_iterations": 9,
+                "outer_residual_inf": 2.4424906541753444e-15,
+                "x": [
+                  0.17147691263487824,
+                  0.17147691263487824,
+                  0.13355815679496402
+                ]
+              },
+              {
+                "start": 3,
+                "success": true,
+                "objective": 549.6408659444589,
+                "outer_iterations": 10,
+                "outer_residual_inf": 0.0,
+                "x": [
+                  0.1714768586792824,
+                  0.1714768586792824,
+                  0.1335580289846141
+                ]
+              },
+              {
+                "start": 4,
+                "success": true,
+                "objective": 549.6408659449737,
+                "outer_iterations": 9,
+                "outer_residual_inf": 0.0,
+                "x": [
+                  0.1714768669073723,
+                  0.1714768669073723,
+                  0.13355804847536534
+                ]
+              },
+              {
+                "start": 5,
+                "success": true,
+                "objective": 549.6408659397509,
+                "outer_iterations": 8,
+                "outer_residual_inf": 2.1371793224034263e-15,
+                "x": [
+                  0.1714767834278667,
+                  0.1714767834278667,
+                  0.13355785072858067
+                ]
+              }
+            ]
+          },
+          "start_rule": "start 0: uniform s=0.1; start 1: BNSE; starts 2-5: uniform random on the action set, numpy default_rng(20260920)"
+        }
+      },
+      "economics": {
+        "BNSE": {
+          "A": {
+            "exante_utility": 269.17321172824825,
+            "expected_breach_probability": 0.804956999624519,
+            "expected_monetary_loss_musd": 123.37916623509673,
+            "expected_protection_cost_utils": 0.04158711933924954,
+            "mean_action": 0.1206715850132336
+          },
+          "B": {
+            "exante_utility": 280.4585608556606,
+            "expected_breach_probability": 0.8706457487612501,
+            "expected_monetary_loss_musd": 132.33815381171001,
+            "expected_protection_cost_utils": 0.018984739528458472,
+            "mean_action": 0.04876661497505372
+          }
+        },
+        "BNSB": {
+          "A": {
+            "exante_utility": 269.1771936639834,
+            "expected_breach_probability": 0.748112809237749,
+            "expected_monetary_loss_musd": 114.83531621799447,
+            "expected_protection_cost_utils": 0.053468021355007195,
+            "mean_action": 0.1514034350162917
+          },
+          "B": {
+            "exante_utility": 280.4607369283661,
+            "expected_breach_probability": 0.8062830776206851,
+            "expected_monetary_loss_musd": 122.55502779834413,
+            "expected_protection_cost_utils": 0.034242549786392684,
+            "mean_action": 0.08541995054122192
+          }
+        },
+        "BNSO": {
+          "A": {
+            "exante_utility": 269.1821206473917,
+            "expected_breach_probability": 0.7021587886257982,
+            "expected_monetary_loss_musd": 107.78137405406002,
+            "expected_protection_cost_utils": 0.06163780299344279,
+            "mean_action": 0.17147691263487824
+          },
+          "B": {
+            "exante_utility": 280.458745300443,
+            "expected_breach_probability": 0.7342942693055518,
+            "expected_monetary_loss_musd": 111.61272893444387,
+            "expected_protection_cost_utils": 0.0557337484481909,
+            "mean_action": 0.13355815679496402
+          }
+        },
+        "BNSB_vs_BNSE": {
+          "A": {
+            "exante_utility": {
+              "baseline": 269.17321172824825,
+              "value": 269.1771936639834,
+              "change": 0.003981935735168918,
+              "percent_change": 0.001479320958279087
+            },
+            "expected_breach_probability": {
+              "baseline": 0.804956999624519,
+              "value": 0.748112809237749,
+              "change": -0.05684419038677002,
+              "percent_change": -7.061767325867793
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 123.37916623509673,
+              "value": 114.83531621799447,
+              "change": -8.543850017102258,
+              "percent_change": -6.924872551677088
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.04158711933924954,
+              "value": 0.053468021355007195,
+              "change": 0.011880902015757658,
+              "percent_change": 28.568706379584633
+            },
+            "mean_action": {
+              "baseline": 0.1206715850132336,
+              "value": 0.1514034350162917,
+              "change": 0.030731850003058087,
+              "percent_change": 25.467345937063676
+            }
+          },
+          "B": {
+            "exante_utility": {
+              "baseline": 280.4585608556606,
+              "value": 280.4607369283661,
+              "change": 0.002176072705481147,
+              "percent_change": 0.0007758981215770673
+            },
+            "expected_breach_probability": {
+              "baseline": 0.8706457487612501,
+              "value": 0.8062830776206851,
+              "change": -0.06436267114056504,
+              "percent_change": -7.392521152505469
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 132.33815381171001,
+              "value": 122.55502779834413,
+              "change": -9.783126013365887,
+              "percent_change": -7.392521152505471
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.018984739528458472,
+              "value": 0.034242549786392684,
+              "change": 0.015257810257934212,
+              "percent_change": 80.36881535858038
+            },
+            "mean_action": {
+              "baseline": 0.04876661497505372,
+              "value": 0.08541995054122192,
+              "change": 0.036653335566168205,
+              "percent_change": 75.16071309217999
+            }
+          }
+        },
+        "BNSO_vs_BNSE": {
+          "A": {
+            "exante_utility": {
+              "baseline": 269.17321172824825,
+              "value": 269.1821206473917,
+              "change": 0.008908919143436833,
+              "percent_change": 0.0033097346820793946
+            },
+            "expected_breach_probability": {
+              "baseline": 0.804956999624519,
+              "value": 0.7021587886257982,
+              "change": -0.10279821099872088,
+              "percent_change": -12.770646263921206
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 123.37916623509673,
+              "value": 107.78137405406002,
+              "change": -15.59779218103671,
+              "percent_change": -12.64216046922817
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.04158711933924954,
+              "value": 0.06163780299344279,
+              "change": 0.020050683654193255,
+              "percent_change": 48.21368724923827
+            },
+            "mean_action": {
+              "baseline": 0.1206715850132336,
+              "value": 0.17147691263487824,
+              "change": 0.050805327621644636,
+              "percent_change": 42.10214659571514
+            }
+          },
+          "B": {
+            "exante_utility": {
+              "baseline": 280.4585608556606,
+              "value": 280.458745300443,
+              "change": 0.00018444478240553508,
+              "percent_change": 6.576543138594386e-05
+            },
+            "expected_breach_probability": {
+              "baseline": 0.8706457487612501,
+              "value": 0.7342942693055518,
+              "change": -0.13635147945569837,
+              "percent_change": -15.660959655485424
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 132.33815381171001,
+              "value": 111.61272893444387,
+              "change": -20.72542487726615,
+              "percent_change": -15.660959655485422
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.018984739528458472,
+              "value": 0.0557337484481909,
+              "change": 0.03674900891973243,
+              "percent_change": 193.57130954915127
+            },
+            "mean_action": {
+              "baseline": 0.04876661497505372,
+              "value": 0.13355815679496402,
+              "change": 0.0847915418199103,
+              "percent_change": 173.87210874341991
+            }
+          }
+        }
+      },
+      "mean_actions": {
+        "BNSE": [
+          0.1206715850132336,
+          0.04876661497505372
+        ],
+        "BNSB": [
+          0.1514034350162917,
+          0.08541995054122192
+        ],
+        "BNSO": [
+          0.17147691263487824,
+          0.13355815679496402
+        ]
+      },
+      "qualitative_ordering": {
+        "coordination_raises_mean_investment": true,
+        "bargaining_satisfies_participation": true,
+        "welfare_ordering_BNSO_best": true,
+        "some_department_loses_under_BNSO": false
+      }
+    },
+    "0.35": {
+      "parameters": {
+        "departments": [
+          "A",
+          "B"
+        ],
+        "types": {
+          "A": 2,
+          "B": 1
+        },
+        "W": {
+          "A": [
+            72600.0,
+            72600.0
+          ],
+          "B": [
+            78800.0
+          ]
+        },
+        "D": {
+          "A": [
+            145.0,
+            162.0
+          ],
+          "B": [
+            152.0
+          ]
+        },
+        "alpha": {
+          "A": [
+            0.625,
+            0.625
+          ],
+          "B": [
+            0.75
+          ]
+        },
+        "prob": {
+          "A": [
+            0.5,
+            0.5
+          ],
+          "B": [
+            1.0
+          ]
+        },
+        "delta": {
+          "A": 0.8,
+          "B": 0.8
+        },
+        "a": {
+          "A": -0.0525,
+          "B": -0.0525
+        },
+        "b": {
+          "A": 0.01575,
+          "B": 0.01575
+        },
+        "action_cap": {
+          "A": 0.19999999999999996,
+          "B": 0.19999999999999996
+        },
+        "budget_translation_span": {
+          "A": 0.13174999999999998,
+          "B": 0.13174999999999998
+        },
+        "rho": 0.3,
+        "seed": 20260920,
+        "utility_units": "square root of millions of US dollars"
+      },
+      "results": {
+        "BNSE": {
+          "s": {
+            "A": [
+              0.10174909783908832,
+              0.11317197532816589
+            ],
+            "B": [
+              0.06942842716195285
+            ]
+          },
+          "U": {
+            "A": [
+              269.18830381848556,
+              269.16279687368086
+            ],
+            "B": [
+              280.4561322465858
+            ]
+          },
+          "barU": {
+            "A": 269.17555034608324,
+            "B": 280.4561322465858
+          },
+          "iters": 39,
+          "K": {
+            "A": [
+              0.04492197658325701,
+              0.113171976583257
+            ],
+            "B": [
+              0.06942842850940731,
+              0.1376784285094073
+            ]
+          }
+        },
+        "BNSB": {
+          "s": {
+            "A": [
+              0.12517304861271084,
+              0.12517304861271084
+            ],
+            "B": [
+              0.08775017108684156
+            ]
+          },
+          "U": {
+            "A": [
+              269.1902155331054,
+              269.1655298248212
+            ],
+            "B": [
+              280.45733951847626
+            ]
+          },
+          "barU": {
+            "A": 269.1778726789633,
+            "B": 280.45733951847626
+          },
+          "iters": 24,
+          "K": {
+            "A": [
+              0.05692304861270169,
+              0.12517304861270168
+            ],
+            "B": [
+              0.08117753547242376,
+              0.14942753547242377
+            ]
+          }
+        },
+        "BNSO": {
+          "s": {
+            "A": [
+              0.1577849328614629,
+              0.1577849328614629
+            ],
+            "B": [
+              0.13708181319606505
+            ]
+          },
+          "U": {
+            "A": [
+              269.1945353912363,
+              269.17185964661735
+            ],
+            "B": [
+              280.456722419881
+            ]
+          },
+          "barU": {
+            "A": 269.1831975189268,
+            "B": 280.456722419881
+          },
+          "iters": 11,
+          "K": {
+            "A": [
+              0.08953493286146291,
+              0.1577849328614629
+            ],
+            "B": [
+              0.10303290363756903,
+              0.17128290363756904
+            ]
+          }
+        }
+      },
+      "certificates": {
+        "coordinates": [
+          "A:t0",
+          "A:t1",
+          "B:t0"
+        ],
+        "Delta": [
+          0.2692072222869797,
+          0.300787083861735,
+          0.2708694753411578
+        ],
+        "d_minus_N": [
+          0.7379572222869797,
+          0.769537083861735,
+          0.8333694753411578
+        ],
+        "d_plus_N": [
+          1.0880797726409064,
+          1.1196596342156617,
+          1.25351653576587
+        ],
+        "d_minus_O": [
+          0.36897861114348984,
+          0.3847685419308675,
+          0.8333694753411578
+        ],
+        "d_plus_O": [
+          0.5440398863204532,
+          0.5598298171078309,
+          1.25351653576587
+        ],
+        "mu_N": 0.6231535299686897,
+        "L_N": 1.347008469580859,
+        "mu_O": 0.23395943673645547,
+        "L_O": 1.304889968692136,
+        "strong_concavity_O": true,
+        "omega": [
+          0.9304117686347849,
+          1.074792939761847
+        ],
+        "gamma": {
+          "A": 0.6764043607889842,
+          "B": 0.6859103834940504
+        },
+        "band_translation_span": [
+          0.13174999999999998,
+          0.13174999999999998
+        ],
+        "ell_M": 1.0725121191302158,
+        "BNSE_contraction_test": {
+          "mu_positive": true,
+          "ell_M_below_one_half": false,
+          "discriminant": 0.9527546900553561,
+          "holds": false,
+          "rho_interval": null,
+          "rho_0.3_admissible": false,
+          "contraction_bound_at_rho_0.3": 3.0335098856176734,
+          "best_contraction_bound": 3.0315807291550003
+        },
+        "BNSO_contraction_test": {
+          "mu_positive": true,
+          "ell_M_below_one_half": false,
+          "discriminant": 0.5844255642493065,
+          "holds": false,
+          "rho_interval": null,
+          "rho_0.3_admissible": false,
+          "contraction_bound_at_rho_0.3": 3.151439034799875,
+          "best_contraction_bound": 3.128819707665278
+        }
+      },
+      "validation": {
+        "BNSE": {
+          "iterations": 39,
+          "rho": 0.3,
+          "natural_QVI_tolerance": 1e-08,
+          "final_step_residual_inf": 2.28833049731314e-09,
+          "max_box_violation": 1.3474544535707622e-09,
+          "natural_QVI_residual_inf": 5.3504602970377846e-09,
+          "feasible": true,
+          "solver_success": true
+        },
+        "BNSB": {
+          "outer_iterations": 24,
+          "outer_step_residual_inf": 1.3974932322469158e-14,
+          "frozen_set_verification_residual_inf": 2.1208379635817565e-09,
+          "outer_fixed_point_residual_inf": 2.1208379635817565e-09,
+          "outer_fixed_point_tolerance": 1e-06,
+          "max_box_violation": 9.159339953157541e-15,
+          "SLSQP_status": 0,
+          "SLSQP_message": "Optimization terminated successfully",
+          "objective": -12.78457514766773,
+          "KKT_stationarity_residual_inf": 9.869677442964075e-05,
+          "objective_gradient_norm_inf": 55.13464078091069,
+          "KKT_relative_residual": 1.7901046063188029e-06,
+          "active_constraints": [
+            "upper[A:t0]",
+            "upper[A:t1]"
+          ],
+          "active_multipliers": [
+            46.0852757981852,
+            55.134640780910686
+          ],
+          "active_tolerance": 1e-05,
+          "finite_difference_audit_of_analytic_gradient": {
+            "0.0001": 0.00045020263171835495,
+            "1e-05": 3.186967695967269e-06,
+            "1e-06": 1.034044926484512e-05,
+            "1e-07": 6.959852348842333e-05
+          },
+          "KKT_residual_finite_difference_variant": {
+            "0.0001": 0.0003189462205455129,
+            "1e-05": 0.0001017729012176005,
+            "1e-06": 0.00010903722369448587,
+            "1e-07": 3.8395953083636414e-05
+          },
+          "IR_surplus_by_department": {
+            "A": 0.0023223328800554555,
+            "B": 0.0012072718904505564
+          },
+          "min_IR_surplus": 0.0012072718904505564,
+          "log_objective_is_exact": true,
+          "feasible": true,
+          "outer_fixed_point_converged": true,
+          "multistart": {
+            "starts": 6,
+            "successful_starts": 6,
+            "solution_spread_inf": 3.542529504463321e-08,
+            "objective_spread": 2.3546493181925143e-06,
+            "runs": [
+              {
+                "start": 0,
+                "success": true,
+                "objective": -12.784577502317049,
+                "outer_iterations": 24,
+                "outer_residual_inf": 9.020562075079397e-16,
+                "x": [
+                  0.12517302535002223,
+                  0.12517302535002223,
+                  0.08775013566154652
+                ]
+              },
+              {
+                "start": 1,
+                "success": true,
+                "objective": -12.784576373820457,
+                "outer_iterations": 24,
+                "outer_residual_inf": 0.0,
+                "x": [
+                  0.12517303649916364,
+                  0.12517303649916364,
+                  0.08775015263988309
+                ]
+              },
+              {
+                "start": 2,
+                "success": true,
+                "objective": -12.784576232215446,
+                "outer_iterations": 25,
+                "outer_residual_inf": 5.190292640122607e-15,
+                "x": [
+                  0.12517303789783657,
+                  0.12517303789783657,
+                  0.08775015476983052
+                ]
+              },
+              {
+                "start": 3,
+                "success": true,
+                "objective": -12.78457514766773,
+                "outer_iterations": 24,
+                "outer_residual_inf": 1.3974932322469158e-14,
+                "x": [
+                  0.12517304861271084,
+                  0.12517304861271084,
+                  0.08775017108684156
+                ]
+              },
+              {
+                "start": 4,
+                "success": true,
+                "objective": -12.784577127591877,
+                "outer_iterations": 27,
+                "outer_residual_inf": 0.0,
+                "x": [
+                  0.12517302905223165,
+                  0.12517302905223165,
+                  0.08775014129941049
+                ]
+              },
+              {
+                "start": 5,
+                "success": true,
+                "objective": -12.784576565395088,
+                "outer_iterations": 24,
+                "outer_residual_inf": 0.0,
+                "x": [
+                  0.12517303460654777,
+                  0.12517303460654777,
+                  0.08775014975773536
+                ]
+              }
+            ]
+          },
+          "start_rule": "convex combinations (1-w) s^N + w s^O with w in [0.25, 0.4, 0.55, 0.7, 0.85, 0.5]",
+          "reduced_hessian_frozen_problem": {
+            "free_coordinates": [
+              "B:t0"
+            ],
+            "blocked_coordinates": [
+              "A:t0",
+              "A:t1"
+            ],
+            "eigenvalues_h=0.0001": [
+              -6573.745557639547
+            ],
+            "negative_definite_h=0.0001": true,
+            "eigenvalues_h=1e-05": [
+              -6573.531187160952
+            ],
+            "negative_definite_h=1e-05": true,
+            "eigenvalues_h=1e-06": [
+              -6573.529549552149
+            ],
+            "negative_definite_h=1e-06": true
+          },
+          "frozen_set_global_certificate": {
+            "incumbent_log_nash": -12.78457514766773,
+            "incumbent_nash_product": 2.803687206360035e-06,
+            "certified_upper_bound_log_nash": -12.783575147667731,
+            "certified_gap_log_nash": 0.0009999999999994458,
+            "certified_relative_gap_nash_product": 0.001000500166707787,
+            "target_tolerance": 0.001,
+            "certified": true,
+            "search_exhausted": true,
+            "nodes_explored": 649,
+            "pruned_nodes": 325,
+            "open_nodes": 0,
+            "smallest_cell_width": 1.6662597656258438e-05,
+            "seconds": 12.961465835571289,
+            "aggregate_box": [
+              [
+                0.05692304861270169,
+                0.08117753547242376
+              ],
+              [
+                0.12517304861270168,
+                0.14942753547242377
+              ]
+            ]
+          }
+        },
+        "BNSO": {
+          "outer_iterations": 11,
+          "outer_step_residual_inf": 0.0,
+          "frozen_set_verification_residual_inf": 0.0,
+          "outer_fixed_point_residual_inf": 0.0,
+          "outer_fixed_point_tolerance": 1e-06,
+          "max_box_violation": 0.0,
+          "SLSQP_status": 0,
+          "SLSQP_message": "Optimization terminated successfully",
+          "objective": 549.6399199388078,
+          "KKT_stationarity_residual_inf": 7.780169281046412e-08,
+          "objective_gradient_norm_inf": 0.047831438589800955,
+          "KKT_relative_residual": 1.6265806570796658e-06,
+          "active_constraints": [
+            "upper[A:t0]",
+            "upper[A:t1]"
+          ],
+          "active_multipliers": [
+            0.027720211749195027,
+            0.047831438589800955
+          ],
+          "active_tolerance": 1e-05,
+          "finite_difference_audit_of_analytic_gradient": {
+            "0.0001": 3.484396160491343e-09,
+            "1e-05": 4.417731517408763e-09,
+            "1e-06": 6.379437111209141e-08,
+            "1e-07": 7.780169281046412e-08
+          },
+          "KKT_residual_finite_difference_variant": {
+            "0.0001": 8.128608897095546e-08,
+            "1e-05": 7.389644451905042e-08,
+            "1e-06": 5.6843418860808015e-08,
+            "1e-07": 0.0
+          },
+          "feasible": true,
+          "outer_fixed_point_converged": true,
+          "multistart": {
+            "starts": 6,
+            "successful_starts": 6,
+            "solution_spread_inf": 1.3122919276242762e-07,
+            "objective_spread": 6.597588253498543e-09,
+            "runs": [
+              {
+                "start": 0,
+                "success": true,
+                "objective": 549.6399199371251,
+                "outer_iterations": 11,
+                "outer_residual_inf": 0.0,
+                "x": [
+                  0.15778491058922756,
+                  0.15778491058922756,
+                  0.13708177972672436
+                ]
+              },
+              {
+                "start": 1,
+                "success": true,
+                "objective": 549.6399199372556,
+                "outer_iterations": 10,
+                "outer_residual_inf": 0.0,
+                "x": [
+                  0.15778491231616143,
+                  0.15778491231616143,
+                  0.13708178232185386
+                ]
+              },
+              {
+                "start": 2,
+                "success": true,
+                "objective": 549.6399199322102,
+                "outer_iterations": 12,
+                "outer_residual_inf": 0.0,
+                "x": [
+                  0.15778484553475303,
+                  0.15778484553475303,
+                  0.1370816819668723
+                ]
+              },
+              {
+                "start": 3,
+                "success": true,
+                "objective": 549.6399199364862,
+                "outer_iterations": 10,
+                "outer_residual_inf": 0.0,
+                "x": [
+                  0.15778490213271773,
+                  0.15778490213271773,
+                  0.13708176701889796
+                ]
+              },
+              {
+                "start": 4,
+                "success": true,
+                "objective": 549.6399199388078,
+                "outer_iterations": 11,
+                "outer_residual_inf": 0.0,
+                "x": [
+                  0.1577849328614629,
+                  0.1577849328614629,
+                  0.13708181319606505
+                ]
+              },
+              {
+                "start": 5,
+                "success": true,
+                "objective": 549.6399199378441,
+                "outer_iterations": 11,
+                "outer_residual_inf": 7.716050021144838e-15,
+                "x": [
+                  0.15778492010436695,
+                  0.15778492010436695,
+                  0.13708179402548862
+                ]
+              }
+            ]
+          },
+          "start_rule": "start 0: uniform s=0.1; start 1: BNSE; starts 2-5: uniform random on the action set, numpy default_rng(20260920)"
+        }
+      },
+      "economics": {
+        "BNSE": {
+          "A": {
+            "exante_utility": 269.17555034608324,
+            "expected_breach_probability": 0.8136155832897601,
+            "expected_monetary_loss_musd": 124.82407338118628,
+            "expected_protection_cost_utils": 0.036565688188443454,
+            "mean_action": 0.10746053658362711
+          },
+          "B": {
+            "exante_utility": 280.4561322465858,
+            "expected_breach_probability": 0.8482676522328388,
+            "expected_monetary_loss_musd": 128.9366831393915,
+            "expected_protection_cost_utils": 0.027474891869046447,
+            "mean_action": 0.06942842716195285
+          }
+        },
+        "BNSB": {
+          "A": {
+            "exante_utility": 269.1778726789633,
+            "expected_breach_probability": 0.7816914658026265,
+            "expected_monetary_loss_musd": 119.98964000070316,
+            "expected_protection_cost_utils": 0.04321918485005516,
+            "mean_action": 0.12517304861271084
+          },
+          "B": {
+            "exante_utility": 280.45733951847626,
+            "expected_breach_probability": 0.8151302435418807,
+            "expected_monetary_loss_musd": 123.89979701836586,
+            "expected_protection_cost_utils": 0.03524353248486234,
+            "mean_action": 0.08775017108684156
+          }
+        },
+        "BNSO": {
+          "A": {
+            "exante_utility": 269.1831975189268,
+            "expected_breach_probability": 0.7180444589746556,
+            "expected_monetary_loss_musd": 110.21982445260964,
+            "expected_protection_cost_utils": 0.056033560634193014,
+            "mean_action": 0.1577849328614629
+          },
+          "B": {
+            "exante_utility": 280.456722419881,
+            "expected_breach_probability": 0.7356952478755657,
+            "expected_monetary_loss_musd": 111.82567767708599,
+            "expected_protection_cost_utils": 0.05737714667995514,
+            "mean_action": 0.13708181319606505
+          }
+        },
+        "BNSB_vs_BNSE": {
+          "A": {
+            "exante_utility": {
+              "baseline": 269.17555034608324,
+              "value": 269.1778726789633,
+              "change": 0.0023223328800554555,
+              "percent_change": 0.0008627577345229147
+            },
+            "expected_breach_probability": {
+              "baseline": 0.8136155832897601,
+              "value": 0.7816914658026265,
+              "change": -0.03192411748713364,
+              "percent_change": -3.9237347640334246
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 124.82407338118628,
+              "value": 119.98964000070316,
+              "change": -4.834433380483119,
+              "percent_change": -3.872997611382048
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.036565688188443454,
+              "value": 0.04321918485005516,
+              "change": 0.006653496661611705,
+              "percent_change": 18.196011045443786
+            },
+            "mean_action": {
+              "baseline": 0.10746053658362711,
+              "value": 0.12517304861271084,
+              "change": 0.01771251202908372,
+              "percent_change": 16.482806239572074
+            }
+          },
+          "B": {
+            "exante_utility": {
+              "baseline": 280.4561322465858,
+              "value": 280.45733951847626,
+              "change": 0.0012072718904505564,
+              "percent_change": 0.0004304672822732523
+            },
+            "expected_breach_probability": {
+              "baseline": 0.8482676522328388,
+              "value": 0.8151302435418807,
+              "change": -0.03313740869095816,
+              "percent_change": -3.9064802958986764
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 128.9366831393915,
+              "value": 123.89979701836586,
+              "change": -5.0368861210256455,
+              "percent_change": -3.9064802958986804
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.027474891869046447,
+              "value": 0.03524353248486234,
+              "change": 0.007768640615815892,
+              "percent_change": 28.275418345024093
+            },
+            "mean_action": {
+              "baseline": 0.06942842716195285,
+              "value": 0.08775017108684156,
+              "change": 0.01832174392488871,
+              "percent_change": 26.389397936597824
+            }
+          }
+        },
+        "BNSO_vs_BNSE": {
+          "A": {
+            "exante_utility": {
+              "baseline": 269.17555034608324,
+              "value": 269.1831975189268,
+              "change": 0.0076471728435763,
+              "percent_change": 0.0028409611622393673
+            },
+            "expected_breach_probability": {
+              "baseline": 0.8136155832897601,
+              "value": 0.7180444589746556,
+              "change": -0.0955711243151045,
+              "percent_change": -11.746471709486409
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 124.82407338118628,
+              "value": 110.21982445260964,
+              "change": -14.604248928576638,
+              "percent_change": -11.69986568534609
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.036565688188443454,
+              "value": 0.056033560634193014,
+              "change": 0.01946787244574956,
+              "percent_change": 53.240820589566695
+            },
+            "mean_action": {
+              "baseline": 0.10746053658362711,
+              "value": 0.1577849328614629,
+              "change": 0.050324396277835776,
+              "percent_change": 46.83058346602681
+            }
+          },
+          "B": {
+            "exante_utility": {
+              "baseline": 280.4561322465858,
+              "value": 280.456722419881,
+              "change": 0.0005901732951656413,
+              "percent_change": 0.0002104333716785135
+            },
+            "expected_breach_probability": {
+              "baseline": 0.8482676522328388,
+              "value": 0.7356952478755657,
+              "change": -0.11257240435727311,
+              "percent_change": -13.27085903381512
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 128.9366831393915,
+              "value": 111.82567767708599,
+              "change": -17.111005462305513,
+              "percent_change": -13.27085903381512
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.027474891869046447,
+              "value": 0.05737714667995514,
+              "change": 0.02990225481090869,
+              "percent_change": 108.83484074635045
+            },
+            "mean_action": {
+              "baseline": 0.06942842716195285,
+              "value": 0.13708181319606505,
+              "change": 0.0676533860341122,
+              "percent_change": 97.44335108773227
+            }
+          }
+        }
+      },
+      "mean_actions": {
+        "BNSE": [
+          0.10746053658362711,
+          0.06942842716195285
+        ],
+        "BNSB": [
+          0.12517304861271084,
+          0.08775017108684156
+        ],
+        "BNSO": [
+          0.1577849328614629,
+          0.13708181319606505
+        ]
+      },
+      "qualitative_ordering": {
+        "coordination_raises_mean_investment": true,
+        "bargaining_satisfies_participation": true,
+        "welfare_ordering_BNSO_best": true,
+        "some_department_loses_under_BNSO": false
+      }
+    }
+  },
+  "three_department_detailed": {
+    "1.0": {
+      "parameters": {
+        "departments": [
+          "A",
+          "B",
+          "C"
+        ],
+        "types": {
+          "A": 2,
+          "B": 1,
+          "C": 2
+        },
+        "W": {
+          "A": [
+            72600.0,
+            72600.0
+          ],
+          "B": [
+            78800.0
+          ],
+          "C": [
+            45000.0,
+            45000.0
+          ]
+        },
+        "D": {
+          "A": [
+            145.0,
+            162.0
+          ],
+          "B": [
+            152.0
+          ],
+          "C": [
+            80.0,
+            110.0
+          ]
+        },
+        "alpha": {
+          "A": [
+            0.5,
+            0.5
+          ],
+          "B": [
+            0.6
+          ],
+          "C": [
+            0.4,
+            0.44
+          ]
+        },
+        "prob": {
+          "A": [
+            0.5,
+            0.5
+          ],
+          "B": [
+            1.0
+          ],
+          "C": [
+            0.6,
+            0.4
+          ]
+        },
+        "delta": {
+          "A": 0.8,
+          "B": 0.8,
+          "C": 0.8
+        },
+        "a": {
+          "A": -0.1,
+          "B": -0.1,
+          "C": -0.1
+        },
+        "b": {
+          "A": 0.099,
+          "B": 0.099,
+          "C": 0.099
+        },
+        "action_cap": {
+          "A": 0.19999999999999996,
+          "B": 0.19999999999999996,
+          "C": 0.19999999999999996
+        },
+        "budget_translation_span": {
+          "A": 0.0009999999999999454,
+          "B": 0.0009999999999999454,
+          "C": 0.0009999999999999454
+        },
+        "rho": 0.3,
+        "seed": 20260920,
+        "utility_units": "square root of millions of US dollars"
+      },
+      "results": {
+        "BNSE": {
+          "s": {
+            "A": [
+              0.14655601133674767,
+              0.1931425191532272
+            ],
+            "B": [
+              0.05275938805464415
+            ],
+            "C": [
+              0.08165749449031083,
+              0.17894433007640928
+            ]
+          },
+          "U": {
+            "A": [
+              269.19738604511036,
+              269.1741898324768
+            ],
+            "B": [
+              280.46966635138784
+            ],
+            "C": [
+              211.9589584940449,
+              211.90195196902155
+            ]
+          },
+          "barU": {
+            "A": 269.1857879387936,
+            "B": 280.46966635138784,
+            "C": 211.93615588403554
+          },
+          "iters": 88,
+          "K": {
+            "A": [
+              0.00039975377540314716,
+              0.19939975377540314
+            ],
+            "B": [
+              0.0006943019977713877,
+              0.19969430199777138
+            ],
+            "C": [
+              0.0005477962757130389,
+              0.19954779627571306
+            ]
+          }
+        },
+        "BNSB": {
+          "s": {
+            "A": [
+              0.199859049806137,
+              0.199859049806137
+            ],
+            "B": [
+              0.14999384345089237
+            ],
+            "C": [
+              0.19987072694192423,
+              0.19987072694192423
+            ]
+          },
+          "U": {
+            "A": [
+              269.2089710666708,
+              269.1883329274191
+            ],
+            "B": [
+              280.47453680175096
+            ],
+            "C": [
+              211.96157455118575,
+              211.91059762843133
+            ]
+          },
+          "barU": {
+            "A": 269.198651997045,
+            "B": 280.47453680175096,
+            "C": 211.94118378208398
+          },
+          "iters": 5,
+          "K": {
+            "A": [
+              0.0008590498060097179,
+              0.19985904980600971
+            ],
+            "B": [
+              0.000999213513365918,
+              0.19999921351336591
+            ],
+            "C": [
+              0.000870726941791522,
+              0.19987072694179153
+            ]
+          }
+        },
+        "BNSO": {
+          "s": {
+            "A": [
+              0.19999999999948398,
+              0.19999999999948398
+            ],
+            "B": [
+              0.19999999999947798
+            ],
+            "C": [
+              0.1999999999995169,
+              0.1999999999995169
+            ]
+          },
+          "U": {
+            "A": [
+              269.2125620895109,
+              269.1923509781031
+            ],
+            "B": [
+              280.4692000948957
+            ],
+            "C": [
+              211.96408752005408,
+              211.91406348111724
+            ]
+          },
+          "barU": {
+            "A": 269.202456533807,
+            "B": 280.4692000948957,
+            "C": 211.94407790447934
+          },
+          "iters": 5,
+          "K": {
+            "A": [
+              0.0009999999999972115,
+              0.19999999999999724
+            ],
+            "B": [
+              0.0009999999999972115,
+              0.19999999999999724
+            ],
+            "C": [
+              0.0009999999999974196,
+              0.19999999999999743
+            ]
+          }
+        }
+      },
+      "certificates": {
+        "coordinates": [
+          "A:t0",
+          "A:t1",
+          "B:t0",
+          "C:t0",
+          "C:t1"
+        ],
+        "Delta": [
+          0.2692072222869797,
+          0.300787083861735,
+          0.2708694753411578,
+          0.18864568814097993,
+          0.25943112468286245
+        ],
+        "d_minus_N": [
+          0.5544714815246531,
+          0.57552472257449,
+          0.6305796502274384,
+          0.4257637920939866,
+          0.5029540831219084
+        ],
+        "d_plus_N": [
+          0.8345695218077945,
+          0.8556227628576315,
+          0.9666972985672081,
+          0.6498422243204998,
+          0.7494403585710728
+        ],
+        "d_minus_O": [
+          0.27723574076232654,
+          0.287762361287245,
+          0.6305796502274384,
+          0.255458275256392,
+          0.20118163324876337
+        ],
+        "d_plus_O": [
+          0.41728476090389727,
+          0.42781138142881575,
+          0.9666972985672081,
+          0.38990533459229987,
+          0.2997761434284291
+        ],
+        "mu_N": 0.27879551789800605,
+        "L_N": 1.0617182788382986,
+        "mu_O": 0.05788444954459798,
+        "L_O": 1.0230275802562219,
+        "strong_concavity_O": true,
+        "omega": [
+          0.691424281530749,
+          0.7836640691960927,
+          0.1790525783138783
+        ],
+        "gamma": {
+          "A": 0.0028601971099297767,
+          "B": 0.002910813917544687,
+          "C": 0.002589299992893668
+        },
+        "band_translation_span": [
+          0.0009999999999999454,
+          0.0009999999999999454,
+          0.0009999999999999454
+        ],
+        "ell_M": 0.007322918093129179,
+        "BNSE_contraction_test": {
+          "mu_positive": true,
+          "ell_M_below_one_half": true,
+          "discriminant": 0.04494982375315482,
+          "holds": true,
+          "rho_interval": [
+            0.05924332455792631,
+            0.43540574263807136
+          ],
+          "rho_0.3_admissible": true,
+          "contraction_bound_at_rho_0.3": 0.98117302286387,
+          "best_contraction_bound": 0.9795536186021031
+        },
+        "BNSO_contraction_test": {
+          "mu_positive": true,
+          "ell_M_below_one_half": true,
+          "discriminant": -0.027081134908865736,
+          "holds": false,
+          "rho_interval": null,
+          "rho_0.3_admissible": false,
+          "contraction_bound_at_rho_0.3": 1.043947550442133,
+          "best_contraction_bound": 1.0130438190830873
+        }
+      },
+      "validation": {
+        "BNSE": {
+          "iterations": 88,
+          "rho": 0.3,
+          "natural_QVI_tolerance": 1e-08,
+          "final_step_residual_inf": 2.593356834834637e-09,
+          "max_box_violation": 0.0,
+          "natural_QVI_residual_inf": 7.408016866605749e-09,
+          "feasible": true,
+          "solver_success": true
+        },
+        "BNSB": {
+          "outer_iterations": 5,
+          "outer_step_residual_inf": 5.169781269742657e-11,
+          "frozen_set_verification_residual_inf": 4.143255710742366e-09,
+          "outer_fixed_point_residual_inf": 4.143255710742366e-09,
+          "outer_fixed_point_tolerance": 1e-06,
+          "max_box_violation": 1.3269940701832184e-13,
+          "SLSQP_status": 0,
+          "SLSQP_message": "Optimization terminated successfully",
+          "objective": -14.970640172669924,
+          "KKT_stationarity_residual_inf": 2.6787182516585517e-06,
+          "objective_gradient_norm_inf": 12.723790719971884,
+          "KKT_relative_residual": 2.1052831743404147e-07,
+          "active_constraints": [
+            "upper[A:t0]",
+            "upper[A:t1]",
+            "upper[C:t0]",
+            "upper[C:t1]"
+          ],
+          "active_multipliers": [
+            11.393887313444736,
+            12.723790719971884,
+            4.044025565380728,
+            6.574354887685217
+          ],
+          "active_tolerance": 1e-05,
+          "finite_difference_audit_of_analytic_gradient": {
+            "0.0001": 2.7848968793264817e-05,
+            "1e-05": 2.15888327659286e-07,
+            "1e-06": 2.708916317928356e-06,
+            "1e-07": 7.965542125454306e-05
+          },
+          "KKT_residual_finite_difference_variant": {
+            "0.0001": 3.052768704492337e-05,
+            "1e-05": 2.7218227671710334e-06,
+            "1e-06": 3.019806626980426e-08,
+            "1e-07": 8.233413950620161e-05
+          },
+          "IR_surplus_by_department": {
+            "A": 0.012864058251352617,
+            "B": 0.004870450363114287,
+            "C": 0.005027898048439283
+          },
+          "min_IR_surplus": 0.004870450363114287,
+          "log_objective_is_exact": true,
+          "feasible": true,
+          "outer_fixed_point_converged": true,
+          "multistart": {
+            "starts": 6,
+            "successful_starts": 6,
+            "solution_spread_inf": 4.445042139922251e-09,
+            "objective_spread": 4.2574477276957623e-10,
+            "runs": [
+              {
+                "start": 0,
+                "success": true,
+                "objective": -14.970640173062566,
+                "outer_iterations": 7,
+                "outer_residual_inf": 3.793415581654358e-11,
+                "x": [
+                  0.19985904979467867,
+                  0.19985904979467867,
+                  0.14999383932556906,
+                  0.19987072693127178,
+                  0.19987072693127178
+                ]
+              },
+              {
+                "start": 1,
+                "success": true,
+                "objective": -14.970640172669924,
+                "outer_iterations": 5,
+                "outer_residual_inf": 5.169781269742657e-11,
+                "x": [
+                  0.199859049806137,
+                  0.199859049806137,
+                  0.14999384345089237,
+                  0.19987072694192423,
+                  0.19987072694192423
+                ]
+              },
+              {
+                "start": 2,
+                "success": true,
+                "objective": -14.970640173076397,
+                "outer_iterations": 6,
+                "outer_residual_inf": 7.27948257228661e-12,
+                "x": [
+                  0.19985904979454236,
+                  0.19985904979454236,
+                  0.1499938393047697,
+                  0.1998707269311395,
+                  0.1998707269311395
+                ]
+              },
+              {
+                "start": 3,
+                "success": true,
+                "objective": -14.970640173071956,
+                "outer_iterations": 8,
+                "outer_residual_inf": 7.385386746605604e-11,
+                "x": [
+                  0.19985904979484087,
+                  0.19985904979484087,
+                  0.14999383935070632,
+                  0.19987072693142896,
+                  0.19987072693142896
+                ]
+              },
+              {
+                "start": 4,
+                "success": true,
+                "objective": -14.970640173087029,
+                "outer_iterations": 7,
+                "outer_residual_inf": 3.147482274812319e-13,
+                "x": [
+                  0.19985904979413005,
+                  0.19985904979413005,
+                  0.14999383916241263,
+                  0.19987072693075508,
+                  0.19987072693075508
+                ]
+              },
+              {
+                "start": 5,
+                "success": true,
+                "objective": -14.970640173095669,
+                "outer_iterations": 6,
+                "outer_residual_inf": 9.614531393253856e-14,
+                "x": [
+                  0.19985904979369562,
+                  0.19985904979369562,
+                  0.14999383900585023,
+                  0.1998707269303516,
+                  0.1998707269303516
+                ]
+              }
+            ]
+          },
+          "start_rule": "convex combinations (1-w) s^N + w s^O with w in [0.25, 0.4, 0.55, 0.7, 0.85, 0.5]",
+          "reduced_hessian_frozen_problem": {
+            "free_coordinates": [
+              "B:t0"
+            ],
+            "blocked_coordinates": [
+              "A:t0",
+              "A:t1",
+              "C:t0",
+              "C:t1"
+            ],
+            "eigenvalues_h=0.0001": [
+              -646.5301273434054
+            ],
+            "negative_definite_h=0.0001": true,
+            "eigenvalues_h=1e-05": [
+              -646.5277704869266
+            ],
+            "negative_definite_h=1e-05": true,
+            "eigenvalues_h=1e-06": [
+              -646.5277167828632
+            ],
+            "negative_definite_h=1e-06": true
+          },
+          "frozen_set_global_certificate": {
+            "incumbent_log_nash": -14.970640172669924,
+            "incumbent_nash_product": 3.1501670345986893e-07,
+            "certified_upper_bound_log_nash": -14.969640172669925,
+            "certified_gap_log_nash": 0.0009999999999994458,
+            "certified_relative_gap_nash_product": 0.001000500166707787,
+            "target_tolerance": 0.001,
+            "certified": true,
+            "search_exhausted": true,
+            "nodes_explored": 6721,
+            "pruned_nodes": 3361,
+            "open_nodes": 0,
+            "smallest_cell_width": 4.858398437498912e-05,
+            "seconds": 239.68624448776245,
+            "aggregate_box": [
+              [
+                0.0008590498060097179,
+                0.000999213513365918,
+                0.000870726941791522
+              ],
+              [
+                0.19985904980600971,
+                0.19999921351336591,
+                0.19987072694179153
+              ]
+            ]
+          }
+        },
+        "BNSO": {
+          "outer_iterations": 5,
+          "outer_step_residual_inf": 9.334280570705289e-11,
+          "frozen_set_verification_residual_inf": 4.996003610813204e-16,
+          "outer_fixed_point_residual_inf": 9.334280570705289e-11,
+          "outer_fixed_point_tolerance": 1e-06,
+          "max_box_violation": 0.0,
+          "SLSQP_status": 0,
+          "SLSQP_message": "Optimization terminated successfully",
+          "objective": 761.6157345331821,
+          "KKT_stationarity_residual_inf": 0.0,
+          "objective_gradient_norm_inf": 0.0507708790642519,
+          "KKT_relative_residual": 0.0,
+          "active_constraints": [
+            "upper[A:t0]",
+            "upper[A:t1]",
+            "upper[B:t0]",
+            "upper[C:t0]",
+            "upper[C:t1]"
+          ],
+          "active_multipliers": [
+            0.03392828622437166,
+            0.0507708790642519,
+            0.0035198988052606364,
+            0.041966802644510574,
+            0.046999314800073674
+          ],
+          "active_tolerance": 1e-05,
+          "finite_difference_audit_of_analytic_gradient": {
+            "0.0001": 4.811207800214934e-09,
+            "1e-05": 1.0036993514095371e-08,
+            "1e-06": 6.822281651414075e-08,
+            "1e-07": 6.935004239830289e-07
+          },
+          "KKT_residual_finite_difference_variant": {
+            "0.0001": 0.0,
+            "1e-05": 6.938893903907228e-18,
+            "1e-06": 0.0,
+            "1e-07": 0.0
+          },
+          "feasible": true,
+          "outer_fixed_point_converged": true,
+          "multistart": {
+            "starts": 6,
+            "successful_starts": 6,
+            "solution_spread_inf": 5.184186413487168e-13,
+            "objective_spread": 1.1368683772161603e-13,
+            "runs": [
+              {
+                "start": 0,
+                "success": true,
+                "objective": 761.6157345331821,
+                "outer_iterations": 5,
+                "outer_residual_inf": 9.334280570705289e-11,
+                "x": [
+                  0.19999999999948398,
+                  0.19999999999948398,
+                  0.19999999999947798,
+                  0.1999999999995169,
+                  0.1999999999995169
+                ]
+              },
+              {
+                "start": 1,
+                "success": true,
+                "objective": 761.6157345331821,
+                "outer_iterations": 5,
+                "outer_residual_inf": 8.399878015374895e-11,
+                "x": [
+                  0.1999999999995466,
+                  0.19999999999954662,
+                  0.19999999999956228,
+                  0.19999999999958373,
+                  0.19999999999958373
+                ]
+              },
+              {
+                "start": 2,
+                "success": true,
+                "objective": 761.6157345331821,
+                "outer_iterations": 6,
+                "outer_residual_inf": 1.3877787807814457e-16,
+                "x": [
+                  0.1999999999993739,
+                  0.1999999999993739,
+                  0.19999999999935347,
+                  0.19999999999939938,
+                  0.1999999999993994
+                ]
+              },
+              {
+                "start": 3,
+                "success": true,
+                "objective": 761.615734533182,
+                "outer_iterations": 5,
+                "outer_residual_inf": 8.882372615204304e-11,
+                "x": [
+                  0.19999999999952273,
+                  0.19999999999952273,
+                  0.19999999999953316,
+                  0.19999999999955445,
+                  0.19999999999955445
+                ]
+              },
+              {
+                "start": 4,
+                "success": true,
+                "objective": 761.6157345331821,
+                "outer_iterations": 6,
+                "outer_residual_inf": 6.613321001935901e-13,
+                "x": [
+                  0.1999999999999964,
+                  0.1999999999999964,
+                  0.1999999999999964,
+                  0.19999999999999662,
+                  0.19999999999999662
+                ]
+              },
+              {
+                "start": 5,
+                "success": true,
+                "objective": 761.6157345331821,
+                "outer_iterations": 5,
+                "outer_residual_inf": 5.265554658961946e-11,
+                "x": [
+                  0.19999999999972845,
+                  0.19999999999972845,
+                  0.1999999999997104,
+                  0.1999999999997377,
+                  0.19999999999973767
+                ]
+              }
+            ]
+          },
+          "start_rule": "start 0: uniform s=0.1; start 1: BNSE; starts 2-5: uniform random on the action set, numpy default_rng(20260920)"
+        }
+      },
+      "economics": {
+        "BNSE": {
+          "A": {
+            "exante_utility": 269.1857879387936,
+            "expected_breach_probability": 0.7353676395254192,
+            "expected_monetary_loss_musd": 112.64880119039343,
+            "expected_protection_cost_utils": 0.04893358481532223,
+            "mean_action": 0.16984926524498745
+          },
+          "B": {
+            "exante_utility": 280.46966635138784,
+            "expected_breach_probability": 0.8388823223797817,
+            "expected_monetary_loss_musd": 127.51011300172681,
+            "expected_protection_cost_utils": 0.016482986440171075,
+            "mean_action": 0.05275938805464415
+          },
+          "C": {
+            "exante_utility": 211.93615588403554,
+            "expected_breach_probability": 0.7795840168045263,
+            "expected_monetary_loss_musd": 70.90059996834266,
+            "expected_protection_cost_utils": 0.028677497821752832,
+            "mean_action": 0.12057222872475021
+          }
+        },
+        "BNSB": {
+          "A": {
+            "exante_utility": 269.198651997045,
+            "expected_breach_probability": 0.6535221569238627,
+            "expected_monetary_loss_musd": 100.31565108781292,
+            "expected_protection_cost_utils": 0.05896775491031325,
+            "mean_action": 0.199859049806137
+          },
+          "B": {
+            "exante_utility": 280.47453680175096,
+            "expected_breach_probability": 0.694250002692583,
+            "expected_monetary_loss_musd": 105.52600040927261,
+            "expected_protection_cost_utils": 0.05078901662815398,
+            "mean_action": 0.14999384345089237
+          },
+          "C": {
+            "exante_utility": 211.94118378208398,
+            "expected_breach_probability": 0.6535126195205283,
+            "expected_monetary_loss_musd": 60.12316099588861,
+            "expected_protection_cost_utils": 0.04906456563866338,
+            "mean_action": 0.19987072694192423
+          }
+        },
+        "BNSO": {
+          "A": {
+            "exante_utility": 269.202456533807,
+            "expected_breach_probability": 0.6400000000008186,
+            "expected_monetary_loss_musd": 98.24000000012566,
+            "expected_protection_cost_utils": 0.05901699437476715,
+            "mean_action": 0.19999999999948398
+          },
+          "B": {
+            "exante_utility": 280.4692000948957,
+            "expected_breach_probability": 0.6400000000008234,
+            "expected_monetary_loss_musd": 97.28000000012516,
+            "expected_protection_cost_utils": 0.07082039324971805,
+            "mean_action": 0.19999999999947798
+          },
+          "C": {
+            "exante_utility": 211.94407790447934,
+            "expected_breach_probability": 0.6400000000007922,
+            "expected_monetary_loss_musd": 58.880000000072876,
+            "expected_protection_cost_utils": 0.04910213931981579,
+            "mean_action": 0.1999999999995169
+          }
+        },
+        "BNSB_vs_BNSE": {
+          "A": {
+            "exante_utility": {
+              "baseline": 269.1857879387936,
+              "value": 269.198651997045,
+              "change": 0.012864058251352617,
+              "percent_change": 0.004778877202193749
+            },
+            "expected_breach_probability": {
+              "baseline": 0.7353676395254192,
+              "value": 0.6535221569238627,
+              "change": -0.08184548260155644,
+              "percent_change": -11.12987276056595
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 112.64880119039343,
+              "value": 100.31565108781292,
+              "change": -12.333150102580504,
+              "percent_change": -10.948318998739829
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.04893358481532223,
+              "value": 0.05896775491031325,
+              "change": 0.010034170094991024,
+              "percent_change": 20.50569181240344
+            },
+            "mean_action": {
+              "baseline": 0.16984926524498745,
+              "value": 0.199859049806137,
+              "change": 0.030009784561149555,
+              "percent_change": 17.66848064833486
+            }
+          },
+          "B": {
+            "exante_utility": {
+              "baseline": 280.46966635138784,
+              "value": 280.47453680175096,
+              "change": 0.004870450363114287,
+              "percent_change": 0.0017365337316058696
+            },
+            "expected_breach_probability": {
+              "baseline": 0.8388823223797817,
+              "value": 0.694250002692583,
+              "change": -0.1446323196871987,
+              "percent_change": -17.24107372734936
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 127.51011300172681,
+              "value": 105.52600040927261,
+              "change": -21.984112592454196,
+              "percent_change": -17.241073727349356
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.016482986440171075,
+              "value": 0.05078901662815398,
+              "change": 0.03430603018798291,
+              "percent_change": 208.12994242581476
+            },
+            "mean_action": {
+              "baseline": 0.05275938805464415,
+              "value": 0.14999384345089237,
+              "change": 0.09723445539624823,
+              "percent_change": 184.29792115014715
+            }
+          },
+          "C": {
+            "exante_utility": {
+              "baseline": 211.93615588403554,
+              "value": 211.94118378208398,
+              "change": 0.005027898048439283,
+              "percent_change": 0.002372364463942803
+            },
+            "expected_breach_probability": {
+              "baseline": 0.7795840168045263,
+              "value": 0.6535126195205283,
+              "change": -0.12607139728399797,
+              "percent_change": -16.17162416961266
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 70.90059996834266,
+              "value": 60.12316099588861,
+              "change": -10.77743897245405,
+              "percent_change": -15.200772598914831
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.028677497821752832,
+              "value": 0.04906456563866338,
+              "change": 0.020387067816910544,
+              "percent_change": 71.09081811679636
+            },
+            "mean_action": {
+              "baseline": 0.12057222872475021,
+              "value": 0.19987072694192423,
+              "change": 0.07929849821717402,
+              "percent_change": 65.76846016357679
+            }
+          }
+        },
+        "BNSO_vs_BNSE": {
+          "A": {
+            "exante_utility": {
+              "baseline": 269.1857879387936,
+              "value": 269.202456533807,
+              "change": 0.016668595013356935,
+              "percent_change": 0.006192226989764769
+            },
+            "expected_breach_probability": {
+              "baseline": 0.7353676395254192,
+              "value": 0.6400000000008186,
+              "change": -0.09536763952460059,
+              "percent_change": -12.968702237991812
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 112.64880119039343,
+              "value": 98.24000000012566,
+              "change": -14.408801190267766,
+              "percent_change": -12.79090504115949
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.04893358481532223,
+              "value": 0.05901699437476715,
+              "change": 0.010083409559444922,
+              "percent_change": 20.606316903820165
+            },
+            "mean_action": {
+              "baseline": 0.16984926524498745,
+              "value": 0.19999999999948398,
+              "change": 0.030150734754496533,
+              "percent_change": 17.751466107909074
+            }
+          },
+          "B": {
+            "exante_utility": {
+              "baseline": 280.46966635138784,
+              "value": 280.4692000948957,
+              "change": -0.0004662564921318335,
+              "percent_change": -0.00016624132591496783
+            },
+            "expected_breach_probability": {
+              "baseline": 0.8388823223797817,
+              "value": 0.6400000000008234,
+              "change": -0.1988823223789583,
+              "percent_change": -23.7080120862196
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 127.51011300172681,
+              "value": 97.28000000012516,
+              "change": -30.23011300160165,
+              "percent_change": -23.708012086219593
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.016482986440171075,
+              "value": 0.07082039324971805,
+              "change": 0.054337406809546976,
+              "percent_change": 329.6575351000714
+            },
+            "mean_action": {
+              "baseline": 0.05275938805464415,
+              "value": 0.19999999999947798,
+              "change": 0.14724061194483384,
+              "percent_change": 279.0794536743551
+            }
+          },
+          "C": {
+            "exante_utility": {
+              "baseline": 211.93615588403554,
+              "value": 211.94407790447934,
+              "change": 0.007922020443800193,
+              "percent_change": 0.0037379277786537095
+            },
+            "expected_breach_probability": {
+              "baseline": 0.7795840168045263,
+              "value": 0.6400000000007922,
+              "change": -0.1395840168037341,
+              "percent_change": -17.904935682991763
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 70.90059996834266,
+              "value": 58.880000000072876,
+              "change": -12.020599968269785,
+              "percent_change": -16.95415831972793
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.028677497821752832,
+              "value": 0.04910213931981579,
+              "change": 0.020424641498062956,
+              "percent_change": 71.22183959358613
+            },
+            "mean_action": {
+              "baseline": 0.12057222872475021,
+              "value": 0.1999999999995169,
+              "change": 0.07942777127476669,
+              "percent_change": 65.8756764429472
+            }
+          }
+        }
+      },
+      "mean_actions": {
+        "BNSE": [
+          0.16984926524498745,
+          0.05275938805464415,
+          0.12057222872475021
+        ],
+        "BNSB": [
+          0.199859049806137,
+          0.14999384345089237,
+          0.19987072694192423
+        ],
+        "BNSO": [
+          0.19999999999948398,
+          0.19999999999947798,
+          0.1999999999995169
+        ]
+      },
+      "qualitative_ordering": {
+        "coordination_raises_mean_investment": true,
+        "bargaining_satisfies_participation": true,
+        "welfare_ordering_BNSO_best": true,
+        "some_department_loses_under_BNSO": true
+      }
+    },
+    "0.6": {
+      "parameters": {
+        "departments": [
+          "A",
+          "B",
+          "C"
+        ],
+        "types": {
+          "A": 2,
+          "B": 1,
+          "C": 2
+        },
+        "W": {
+          "A": [
+            72600.0,
+            72600.0
+          ],
+          "B": [
+            78800.0
+          ],
+          "C": [
+            45000.0,
+            45000.0
+          ]
+        },
+        "D": {
+          "A": [
+            145.0,
+            162.0
+          ],
+          "B": [
+            152.0
+          ],
+          "C": [
+            80.0,
+            110.0
+          ]
+        },
+        "alpha": {
+          "A": [
+            0.5,
+            0.5
+          ],
+          "B": [
+            0.6
+          ],
+          "C": [
+            0.4,
+            0.44
+          ]
+        },
+        "prob": {
+          "A": [
+            0.5,
+            0.5
+          ],
+          "B": [
+            1.0
+          ],
+          "C": [
+            0.6,
+            0.4
+          ]
+        },
+        "delta": {
+          "A": 0.8,
+          "B": 0.8,
+          "C": 0.8
+        },
+        "a": {
+          "A": -0.06,
+          "B": -0.06,
+          "C": -0.06
+        },
+        "b": {
+          "A": 0.0594,
+          "B": 0.0594,
+          "C": 0.0594
+        },
+        "action_cap": {
+          "A": 0.19999999999999996,
+          "B": 0.19999999999999996,
+          "C": 0.19999999999999996
+        },
+        "budget_translation_span": {
+          "A": 0.08059999999999995,
+          "B": 0.08059999999999995,
+          "C": 0.08059999999999995
+        },
+        "rho": 0.3,
+        "seed": 20260920,
+        "utility_units": "square root of millions of US dollars"
+      },
+      "results": {
+        "BNSE": {
+          "s": {
+            "A": [
+              0.14686149426796394,
+              0.15189561662271475
+            ],
+            "B": [
+              0.05617238255293035
+            ],
+            "C": [
+              0.0838111115713585,
+              0.1609088574728567
+            ]
+          },
+          "U": {
+            "A": [
+              269.19719392731247,
+              269.1732826538274
+            ],
+            "B": [
+              280.46741315300216
+            ],
+            "C": [
+              211.95797461598275,
+              211.90059981069703
+            ]
+          },
+          "barU": {
+            "A": 269.18523829056994,
+            "B": 280.46741315300216,
+            "C": 211.93502469386846
+          },
+          "iters": 83,
+          "K": {
+            "A": [
+              0.03249561639850222,
+              0.15189561639850221
+            ],
+            "B": [
+              0.05108176946199526,
+              0.17048176946199525
+            ],
+            "C": [
+              0.04150885761204286,
+              0.16090885761204285
+            ]
+          }
+        },
+        "BNSB": {
+          "s": {
+            "A": [
+              0.18607151075619568,
+              0.18607151075619568
+            ],
+            "B": [
+              0.1491898652275148
+            ],
+            "C": [
+              0.18700375550928125,
+              0.18700375550928125
+            ]
+          },
+          "U": {
+            "A": [
+              269.2086885098516,
+              269.1874594847838
+            ],
+            "B": [
+              280.47255714248035
+            ],
+            "C": [
+              211.96174104427544,
+              211.9098487690256
+            ]
+          },
+          "barU": {
+            "A": 269.1980739973177,
+            "B": 280.47255714248035,
+            "C": 211.9409841341755
+          },
+          "iters": 25,
+          "K": {
+            "A": [
+              0.06667151075094566,
+              0.18607151075094566
+            ],
+            "B": [
+              0.07457346390536645,
+              0.19397346390536646
+            ],
+            "C": [
+              0.0676037555044659,
+              0.1870037555044659
+            ]
+          }
+        },
+        "BNSO": {
+          "s": {
+            "A": [
+              0.19999999996195322,
+              0.19999999996195322
+            ],
+            "B": [
+              0.19999999996151105
+            ],
+            "C": [
+              0.19999999996441314,
+              0.19999999996441314
+            ]
+          },
+          "U": {
+            "A": [
+              269.2125620895081,
+              269.1923509780983
+            ],
+            "B": [
+              280.4692000948954
+            ],
+            "C": [
+              211.96408752005303,
+              211.9140634811131
+            ]
+          },
+          "barU": {
+            "A": 269.20245653380323,
+            "B": 280.4692000948954,
+            "C": 211.94407790447707
+          },
+          "iters": 26,
+          "K": {
+            "A": [
+              0.08059999998358483,
+              0.19999999998358484
+            ],
+            "B": [
+              0.08059999998339401,
+              0.19999999998339402
+            ],
+            "C": [
+              0.08059999998464626,
+              0.19999999998464627
+            ]
+          }
+        }
+      },
+      "certificates": {
+        "coordinates": [
+          "A:t0",
+          "A:t1",
+          "B:t0",
+          "C:t0",
+          "C:t1"
+        ],
+        "Delta": [
+          0.2692072222869797,
+          0.300787083861735,
+          0.2708694753411578,
+          0.18864568814097993,
+          0.25943112468286245
+        ],
+        "d_minus_N": [
+          0.5544714815246531,
+          0.57552472257449,
+          0.6305796502274384,
+          0.4257637920939866,
+          0.5029540831219084
+        ],
+        "d_plus_N": [
+          0.8345695218077945,
+          0.8556227628576315,
+          0.9666972985672081,
+          0.6498422243204998,
+          0.7494403585710728
+        ],
+        "d_minus_O": [
+          0.27723574076232654,
+          0.287762361287245,
+          0.6305796502274384,
+          0.255458275256392,
+          0.20118163324876337
+        ],
+        "d_plus_O": [
+          0.41728476090389727,
+          0.42781138142881575,
+          0.9666972985672081,
+          0.38990533459229987,
+          0.2997761434284291
+        ],
+        "mu_N": 0.27879551789800605,
+        "L_N": 1.0617182788382986,
+        "mu_O": 0.05788444954459798,
+        "L_O": 1.0230275802562219,
+        "strong_concavity_O": true,
+        "omega": [
+          0.691424281530749,
+          0.7836640691960927,
+          0.1790525783138783
+        ],
+        "gamma": {
+          "A": 0.22159686704136594,
+          "B": 0.22551845900024148,
+          "C": 0.20241819096864336
+        },
+        "band_translation_span": [
+          0.08059999999999995,
+          0.08059999999999995,
+          0.08059999999999995
+        ],
+        "ell_M": 0.5692757155094914,
+        "BNSE_contraction_test": {
+          "mu_positive": true,
+          "ell_M_below_one_half": false,
+          "discriminant": -1.0278795917548906,
+          "holds": false,
+          "rho_interval": null,
+          "rho_0.3_admissible": false,
+          "contraction_bound_at_rho_0.3": 2.1050786176965945,
+          "best_contraction_bound": 2.1034592134348276
+        },
+        "BNSO_contraction_test": {
+          "mu_positive": true,
+          "ell_M_below_one_half": false,
+          "discriminant": -1.0231440442669328,
+          "holds": false,
+          "rho_interval": null,
+          "rho_0.3_admissible": false,
+          "contraction_bound_at_rho_0.3": 2.1678531452748575,
+          "best_contraction_bound": 2.136949413915812
+        }
+      },
+      "validation": {
+        "BNSE": {
+          "iterations": 83,
+          "rho": 0.3,
+          "natural_QVI_tolerance": 1e-08,
+          "final_step_residual_inf": 2.9449986060914313e-09,
+          "max_box_violation": 2.2421253742521685e-10,
+          "natural_QVI_residual_inf": 8.390107220090925e-09,
+          "feasible": true,
+          "solver_success": true
+        },
+        "BNSB": {
+          "outer_iterations": 25,
+          "outer_step_residual_inf": 2.4406476839544666e-11,
+          "frozen_set_verification_residual_inf": 5.25002263884744e-12,
+          "outer_fixed_point_residual_inf": 2.4406476839544666e-11,
+          "outer_fixed_point_tolerance": 1e-06,
+          "max_box_violation": 5.25002263884744e-12,
+          "SLSQP_status": 0,
+          "SLSQP_message": "Optimization terminated successfully",
+          "objective": -14.748229450102603,
+          "KKT_stationarity_residual_inf": 9.522840151987566e-07,
+          "objective_gradient_norm_inf": 11.99379536084243,
+          "KKT_relative_residual": 7.939805428961973e-08,
+          "active_constraints": [
+            "upper[A:t0]",
+            "upper[A:t1]",
+            "upper[C:t0]",
+            "upper[C:t1]"
+          ],
+          "active_multipliers": [
+            10.644041438297688,
+            11.993795360842432,
+            5.939276237127627,
+            7.3398323375553165
+          ],
+          "active_tolerance": 1e-05,
+          "finite_difference_audit_of_analytic_gradient": {
+            "0.0001": 2.331063654636978e-05,
+            "1e-05": 1.9542013873774522e-07,
+            "1e-06": 4.188492678025568e-06,
+            "1e-07": 4.65410270429345e-05
+          },
+          "KKT_residual_finite_difference_variant": {
+            "0.0001": 2.4262920561568535e-05,
+            "1e-05": 1.1477041539365018e-06,
+            "1e-06": 5.140776693224325e-06,
+            "1e-07": 2.2177815139912127e-05
+          },
+          "IR_surplus_by_department": {
+            "A": 0.012835706747750919,
+            "B": 0.0051439894781992734,
+            "C": 0.005959440307037767
+          },
+          "min_IR_surplus": 0.0051439894781992734,
+          "log_objective_is_exact": true,
+          "feasible": true,
+          "outer_fixed_point_converged": true,
+          "multistart": {
+            "starts": 6,
+            "successful_starts": 6,
+            "solution_spread_inf": 2.1118878590353773e-09,
+            "objective_spread": 2.0936012035122076e-08,
+            "runs": [
+              {
+                "start": 0,
+                "success": true,
+                "objective": -14.748229450102603,
+                "outer_iterations": 25,
+                "outer_residual_inf": 2.4406476839544666e-11,
+                "x": [
+                  0.18607151075619568,
+                  0.18607151075619568,
+                  0.1491898652275148,
+                  0.18700375550928125,
+                  0.18700375550928125
+                ]
+              },
+              {
+                "start": 1,
+                "success": true,
+                "objective": -14.74822946817106,
+                "outer_iterations": 28,
+                "outer_residual_inf": 3.8239494903891114e-11,
+                "x": [
+                  0.18607151024264232,
+                  0.18607151024264232,
+                  0.149189863312717,
+                  0.1870037550243144,
+                  0.1870037550243144
+                ]
+              },
+              {
+                "start": 2,
+                "success": true,
+                "objective": -14.748229468924212,
+                "outer_iterations": 19,
+                "outer_residual_inf": 2.5198815256644025e-11,
+                "x": [
+                  0.18607151022158255,
+                  0.18607151022158255,
+                  0.14918986324609745,
+                  0.1870037550034269,
+                  0.1870037550034269
+                ]
+              },
+              {
+                "start": 3,
+                "success": true,
+                "objective": -14.748229459130666,
+                "outer_iterations": 16,
+                "outer_residual_inf": 4.725375646330576e-11,
+                "x": [
+                  0.186071510499679,
+                  0.186071510499679,
+                  0.14918986425463562,
+                  0.1870037552669843,
+                  0.1870037552669843
+                ]
+              },
+              {
+                "start": 4,
+                "success": true,
+                "objective": -14.748229462594493,
+                "outer_iterations": 25,
+                "outer_residual_inf": 3.4706265639172784e-11,
+                "x": [
+                  0.18607151040083955,
+                  0.18607151040083955,
+                  0.1491898639034247,
+                  0.18700375517405274,
+                  0.18700375517405274
+                ]
+              },
+              {
+                "start": 5,
+                "success": true,
+                "objective": -14.748229471038615,
+                "outer_iterations": 19,
+                "outer_residual_inf": 4.122613361801086e-11,
+                "x": [
+                  0.18607151016135115,
+                  0.18607151016135115,
+                  0.14918986311562693,
+                  0.18700375494684113,
+                  0.18700375494684113
+                ]
+              }
+            ]
+          },
+          "start_rule": "convex combinations (1-w) s^N + w s^O with w in [0.25, 0.4, 0.55, 0.7, 0.85, 0.5]",
+          "reduced_hessian_frozen_problem": {
+            "free_coordinates": [
+              "B:t0"
+            ],
+            "blocked_coordinates": [
+              "A:t0",
+              "A:t1",
+              "C:t0",
+              "C:t1"
+            ],
+            "eigenvalues_h=0.0001": [
+              -552.2439406135237
+            ],
+            "negative_definite_h=0.0001": true,
+            "eigenvalues_h=1e-05": [
+              -552.2421852329095
+            ],
+            "negative_definite_h=1e-05": true,
+            "eigenvalues_h=1e-06": [
+              -552.2422141668316
+            ],
+            "negative_definite_h=1e-06": true
+          },
+          "frozen_set_global_certificate": {
+            "incumbent_log_nash": -14.748229450102603,
+            "incumbent_nash_product": 3.9348241841391333e-07,
+            "certified_upper_bound_log_nash": -14.747229450102603,
+            "certified_gap_log_nash": 0.0009999999999994458,
+            "certified_relative_gap_nash_product": 0.001000500166707787,
+            "target_tolerance": 0.001,
+            "certified": true,
+            "search_exhausted": true,
+            "nodes_explored": 3875,
+            "pruned_nodes": 1938,
+            "open_nodes": 0,
+            "smallest_cell_width": 5.8300781249992495e-05,
+            "seconds": 110.43053340911865,
+            "aggregate_box": [
+              [
+                0.06667151075094566,
+                0.07457346390536645,
+                0.0676037555044659
+              ],
+              [
+                0.18607151075094566,
+                0.19397346390536646,
+                0.1870037555044659
+              ]
+            ]
+          }
+        },
+        "BNSO": {
+          "outer_iterations": 26,
+          "outer_step_residual_inf": 5.0720927458058895e-11,
+          "frozen_set_verification_residual_inf": 2.18829676601473e-11,
+          "outer_fixed_point_residual_inf": 5.0720927458058895e-11,
+          "outer_fixed_point_tolerance": 1e-06,
+          "max_box_violation": 0.0,
+          "SLSQP_status": 0,
+          "SLSQP_message": "Optimization terminated successfully",
+          "objective": 761.6157345331758,
+          "KKT_stationarity_residual_inf": 0.0,
+          "objective_gradient_norm_inf": 0.050770879086954435,
+          "KKT_relative_residual": 0.0,
+          "active_constraints": [
+            "upper[A:t0]",
+            "upper[A:t1]",
+            "upper[B:t0]",
+            "upper[C:t0]",
+            "upper[C:t1]"
+          ],
+          "active_multipliers": [
+            0.033928286246294515,
+            0.050770879086954435,
+            0.003519898854625385,
+            0.04196680266524221,
+            0.04699931481600586
+          ],
+          "active_tolerance": 1e-05,
+          "finite_difference_audit_of_analytic_gradient": {
+            "0.0001": 3.7237041713988894e-09,
+            "1e-05": 1.0015070661673064e-08,
+            "1e-06": 7.254283140856188e-08,
+            "1e-07": 7.227929527606203e-07
+          },
+          "KKT_residual_finite_difference_variant": {
+            "0.0001": 0.0,
+            "1e-05": 6.938893903907228e-18,
+            "1e-06": 0.0,
+            "1e-07": 0.0
+          },
+          "feasible": true,
+          "outer_fixed_point_converged": true,
+          "multistart": {
+            "starts": 6,
+            "successful_starts": 6,
+            "solution_spread_inf": 3.404659887351613e-11,
+            "objective_spread": 6.0254023992456496e-12,
+            "runs": [
+              {
+                "start": 0,
+                "success": true,
+                "objective": 761.6157345331698,
+                "outer_iterations": 25,
+                "outer_residual_inf": 9.558751012939126e-11,
+                "x": [
+                  0.19999999992829767,
+                  0.19999999992829767,
+                  0.19999999992746445,
+                  0.19999999993293333,
+                  0.19999999993293335
+                ]
+              },
+              {
+                "start": 1,
+                "success": true,
+                "objective": 761.6157345331706,
+                "outer_iterations": 25,
+                "outer_residual_inf": 8.933184747483836e-11,
+                "x": [
+                  0.19999999993299025,
+                  0.19999999993299025,
+                  0.19999999993221163,
+                  0.19999999993732268,
+                  0.19999999993732268
+                ]
+              },
+              {
+                "start": 2,
+                "success": true,
+                "objective": 761.6157345331758,
+                "outer_iterations": 26,
+                "outer_residual_inf": 5.0720927458058895e-11,
+                "x": [
+                  0.19999999996195322,
+                  0.19999999996195322,
+                  0.19999999996151105,
+                  0.19999999996441314,
+                  0.19999999996441314
+                ]
+              },
+              {
+                "start": 3,
+                "success": true,
+                "objective": 761.6157345331708,
+                "outer_iterations": 25,
+                "outer_residual_inf": 8.732561895818947e-11,
+                "x": [
+                  0.19999999993449502,
+                  0.19999999993449505,
+                  0.19999999993373374,
+                  0.1999999999387302,
+                  0.19999999993873022
+                ]
+              },
+              {
+                "start": 4,
+                "success": true,
+                "objective": 761.6157345331754,
+                "outer_iterations": 26,
+                "outer_residual_inf": 5.243463996329467e-11,
+                "x": [
+                  0.1999999999606676,
+                  0.1999999999606676,
+                  0.1999999999602104,
+                  0.1999999999632105,
+                  0.19999999996321047
+                ]
+              },
+              {
+                "start": 5,
+                "success": true,
+                "objective": 761.6157345331756,
+                "outer_iterations": 25,
+                "outer_residual_inf": 5.186437390669596e-11,
+                "x": [
+                  0.1999999999610953,
+                  0.1999999999610953,
+                  0.1999999999606431,
+                  0.19999999996361062,
+                  0.19999999996361062
+                ]
+              }
+            ]
+          },
+          "start_rule": "start 0: uniform s=0.1; start 1: BNSE; starts 2-5: uniform random on the action set, numpy default_rng(20260920)"
+        }
+      },
+      "economics": {
+        "BNSE": {
+          "A": {
+            "exante_utility": 269.18523829056994,
+            "expected_breach_probability": 0.7598335687534941,
+            "expected_monetary_loss_musd": 116.60927499936739,
+            "expected_protection_cost_utils": 0.04212978294364045,
+            "mean_action": 0.14937855544533934
+          },
+          "B": {
+            "exante_utility": 280.46741315300216,
+            "expected_breach_probability": 0.8430893885954686,
+            "expected_monetary_loss_musd": 128.14958706651123,
+            "expected_protection_cost_utils": 0.017596619007265477,
+            "mean_action": 0.05617238255293035
+          },
+          "C": {
+            "exante_utility": 211.93502469386846,
+            "expected_breach_probability": 0.7913286420286987,
+            "expected_monetary_loss_musd": 72.1454123987331,
+            "expected_protection_cost_utils": 0.026872891167616632,
+            "mean_action": 0.11465020993195778
+          }
+        },
+        "BNSB": {
+          "A": {
+            "exante_utility": 269.1980739973177,
+            "expected_breach_probability": 0.6722329994235352,
+            "expected_monetary_loss_musd": 103.18776541151266,
+            "expected_protection_cost_utils": 0.054213217793590784,
+            "mean_action": 0.18607151075619568
+          },
+          "B": {
+            "exante_utility": 280.47255714248035,
+            "expected_breach_probability": 0.7026939791349779,
+            "expected_monetary_loss_musd": 106.80948482851664,
+            "expected_protection_cost_utils": 0.05048146042997459,
+            "mean_action": 0.1491898652275148
+          },
+          "C": {
+            "exante_utility": 211.9409841341755,
+            "expected_breach_probability": 0.6714630476466342,
+            "expected_monetary_loss_musd": 61.77460038349035,
+            "expected_protection_cost_utils": 0.04536969112447976,
+            "mean_action": 0.18700375550928125
+          }
+        },
+        "BNSO": {
+          "A": {
+            "exante_utility": 269.20245653380323,
+            "expected_breach_probability": 0.6400000000603367,
+            "expected_monetary_loss_musd": 98.24000000926169,
+            "expected_protection_cost_utils": 0.05901699436165442,
+            "mean_action": 0.19999999996195322
+          },
+          "B": {
+            "exante_utility": 280.4692000948954,
+            "expected_breach_probability": 0.6400000000606906,
+            "expected_monetary_loss_musd": 97.28000000922496,
+            "expected_protection_cost_utils": 0.07082039323379997,
+            "mean_action": 0.19999999996151105
+          },
+          "C": {
+            "exante_utility": 211.94407790447707,
+            "expected_breach_probability": 0.640000000058369,
+            "expected_monetary_loss_musd": 58.88000000536995,
+            "expected_protection_cost_utils": 0.04910213930961152,
+            "mean_action": 0.19999999996441314
+          }
+        },
+        "BNSB_vs_BNSE": {
+          "A": {
+            "exante_utility": {
+              "baseline": 269.18523829056994,
+              "value": 269.1980739973177,
+              "change": 0.012835706747750919,
+              "percent_change": 0.004768354620506907
+            },
+            "expected_breach_probability": {
+              "baseline": 0.7598335687534941,
+              "value": 0.6722329994235352,
+              "change": -0.08760056932995886,
+              "percent_change": -11.528915400995967
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 116.60927499936739,
+              "value": 103.18776541151266,
+              "change": -13.421509587854729,
+              "percent_change": -11.509813081272945
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.04212978294364045,
+              "value": 0.054213217793590784,
+              "change": 0.012083434849950336,
+              "percent_change": 28.681455269102802
+            },
+            "mean_action": {
+              "baseline": 0.14937855544533934,
+              "value": 0.18607151075619568,
+              "change": 0.03669295531085634,
+              "percent_change": 24.563736877401414
+            }
+          },
+          "B": {
+            "exante_utility": {
+              "baseline": 280.46741315300216,
+              "value": 280.47255714248035,
+              "change": 0.0051439894781992734,
+              "percent_change": 0.0018340774139750402
+            },
+            "expected_breach_probability": {
+              "baseline": 0.8430893885954686,
+              "value": 0.7026939791349779,
+              "change": -0.14039540946049067,
+              "percent_change": -16.652493953740798
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 128.14958706651123,
+              "value": 106.80948482851664,
+              "change": -21.340102237994586,
+              "percent_change": -16.6524939537408
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.017596619007265477,
+              "value": 0.05048146042997459,
+              "change": 0.032884841422709116,
+              "percent_change": 186.88159020281836
+            },
+            "mean_action": {
+              "baseline": 0.05617238255293035,
+              "value": 0.1491898652275148,
+              "change": 0.09301748267458444,
+              "percent_change": 165.59290962411208
+            }
+          },
+          "C": {
+            "exante_utility": {
+              "baseline": 211.93502469386846,
+              "value": 211.9409841341755,
+              "change": 0.005959440307037767,
+              "percent_change": 0.002811918565912329
+            },
+            "expected_breach_probability": {
+              "baseline": 0.7913286420286987,
+              "value": 0.6714630476466342,
+              "change": -0.11986559438206446,
+              "percent_change": -15.14738479259005
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 72.1454123987331,
+              "value": 61.77460038349035,
+              "change": -10.370812015242748,
+              "percent_change": -14.374873842186068
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.026872891167616632,
+              "value": 0.04536969112447976,
+              "change": 0.018496799956863125,
+              "percent_change": 68.83070318519664
+            },
+            "mean_action": {
+              "baseline": 0.11465020993195778,
+              "value": 0.18700375550928125,
+              "change": 0.07235354557732347,
+              "percent_change": 63.10807945337703
+            }
+          }
+        },
+        "BNSO_vs_BNSE": {
+          "A": {
+            "exante_utility": {
+              "baseline": 269.18523829056994,
+              "value": 269.20245653380323,
+              "change": 0.017218243233287467,
+              "percent_change": 0.006396429218269899
+            },
+            "expected_breach_probability": {
+              "baseline": 0.7598335687534941,
+              "value": 0.6400000000603367,
+              "change": -0.11983356869315731,
+              "percent_change": -15.771028501642027
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 116.60927499936739,
+              "value": 98.24000000926169,
+              "change": -18.369274990105694,
+              "percent_change": -15.752842121868392
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.04212978294364045,
+              "value": 0.05901699436165442,
+              "change": 0.01688721141801397,
+              "percent_change": 40.08378452983015
+            },
+            "mean_action": {
+              "baseline": 0.14937855544533934,
+              "value": 0.19999999996195322,
+              "change": 0.05062144451661388,
+              "percent_change": 33.88802654149195
+            }
+          },
+          "B": {
+            "exante_utility": {
+              "baseline": 280.46741315300216,
+              "value": 280.4692000948954,
+              "change": 0.0017869418932718872,
+              "percent_change": 0.0006371299514560947
+            },
+            "expected_breach_probability": {
+              "baseline": 0.8430893885954686,
+              "value": 0.6400000000606906,
+              "change": -0.20308938853477798,
+              "percent_change": -24.088713638432996
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 128.14958706651123,
+              "value": 97.28000000922496,
+              "change": -30.869587057286267,
+              "percent_change": -24.088713638433003
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.017596619007265477,
+              "value": 0.07082039323379997,
+              "change": 0.0532237742265345,
+              "percent_change": 302.4659123696371
+            },
+            "mean_action": {
+              "baseline": 0.05617238255293035,
+              "value": 0.19999999996151105,
+              "change": 0.1438276174085807,
+              "percent_change": 256.04685233540556
+            }
+          },
+          "C": {
+            "exante_utility": {
+              "baseline": 211.93502469386846,
+              "value": 211.94407790447707,
+              "change": 0.009053210608612972,
+              "percent_change": 0.004271691581743021
+            },
+            "expected_breach_probability": {
+              "baseline": 0.7913286420286987,
+              "value": 0.640000000058369,
+              "change": -0.1513286419703297,
+              "percent_change": -19.12336214475623
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 72.1454123987331,
+              "value": 58.88000000536995,
+              "change": -13.26541239336315,
+              "percent_change": -18.387049089203202
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.026872891167616632,
+              "value": 0.04910213930961152,
+              "change": 0.022229248141994888,
+              "percent_change": 82.71997234440632
+            },
+            "mean_action": {
+              "baseline": 0.11465020993195778,
+              "value": 0.19999999996441314,
+              "change": 0.08534979003245537,
+              "percent_change": 74.44364042866427
+            }
+          }
+        }
+      },
+      "mean_actions": {
+        "BNSE": [
+          0.14937855544533934,
+          0.05617238255293035,
+          0.11465020993195778
+        ],
+        "BNSB": [
+          0.18607151075619568,
+          0.1491898652275148,
+          0.18700375550928125
+        ],
+        "BNSO": [
+          0.19999999996195322,
+          0.19999999996151105,
+          0.19999999996441314
+        ]
+      },
+      "qualitative_ordering": {
+        "coordination_raises_mean_investment": true,
+        "bargaining_satisfies_participation": true,
+        "welfare_ordering_BNSO_best": true,
+        "some_department_loses_under_BNSO": false
+      }
+    },
+    "0.35": {
+      "parameters": {
+        "departments": [
+          "A",
+          "B",
+          "C"
+        ],
+        "types": {
+          "A": 2,
+          "B": 1,
+          "C": 2
+        },
+        "W": {
+          "A": [
+            72600.0,
+            72600.0
+          ],
+          "B": [
+            78800.0
+          ],
+          "C": [
+            45000.0,
+            45000.0
+          ]
+        },
+        "D": {
+          "A": [
+            145.0,
+            162.0
+          ],
+          "B": [
+            152.0
+          ],
+          "C": [
+            80.0,
+            110.0
+          ]
+        },
+        "alpha": {
+          "A": [
+            0.5,
+            0.5
+          ],
+          "B": [
+            0.6
+          ],
+          "C": [
+            0.4,
+            0.44
+          ]
+        },
+        "prob": {
+          "A": [
+            0.5,
+            0.5
+          ],
+          "B": [
+            1.0
+          ],
+          "C": [
+            0.6,
+            0.4
+          ]
+        },
+        "delta": {
+          "A": 0.8,
+          "B": 0.8,
+          "C": 0.8
+        },
+        "a": {
+          "A": -0.034999999999999996,
+          "B": -0.034999999999999996,
+          "C": -0.034999999999999996
+        },
+        "b": {
+          "A": 0.03465,
+          "B": 0.03465,
+          "C": 0.03465
+        },
+        "action_cap": {
+          "A": 0.19999999999999996,
+          "B": 0.19999999999999996,
+          "C": 0.19999999999999996
+        },
+        "budget_translation_span": {
+          "A": 0.13034999999999994,
+          "B": 0.13034999999999994,
+          "C": 0.13034999999999994
+        },
+        "rho": 0.3,
+        "seed": 20260920,
+        "utility_units": "square root of millions of US dollars"
+      },
+      "results": {
+        "BNSE": {
+          "s": {
+            "A": [
+              0.12491804700949276,
+              0.12491804700949276
+            ],
+            "B": [
+              0.07195645609574283
+            ],
+            "C": [
+              0.08490293174876215,
+              0.13476322489627438
+            ]
+          },
+          "U": {
+            "A": [
+              269.19748889557036,
+              269.1726332836678
+            ],
+            "B": [
+              280.4644539182961
+            ],
+            "C": [
+              211.95747504981193,
+              211.89935297969066
+            ]
+          },
+          "barU": {
+            "A": 269.18506108961907,
+            "B": 280.4644539182961,
+            "C": 211.93422622176342
+          },
+          "iters": 75,
+          "K": {
+            "A": [
+              0.05526804580938944,
+              0.12491804580938944
+            ],
+            "B": [
+              0.07195645487673372,
+              0.1416064548767337
+            ],
+            "C": [
+              0.06511322394825664,
+              0.13476322394825663
+            ]
+          }
+        },
+        "BNSB": {
+          "s": {
+            "A": [
+              0.17851512584754758,
+              0.17851512584754758
+            ],
+            "B": [
+              0.1580724421560434
+            ],
+            "C": [
+              0.17983513038205373,
+              0.17983513038205373
+            ]
+          },
+          "U": {
+            "A": [
+              269.20913256792545,
+              269.18765593370233
+            ],
+            "B": [
+              280.470677794596
+            ],
+            "C": [
+              211.9622658230234,
+              211.91003568956953
+            ]
+          },
+          "barU": {
+            "A": 269.19839425081386,
+            "B": 280.470677794596,
+            "C": 211.94137376964184
+          },
+          "iters": 32,
+          "K": {
+            "A": [
+              0.10886512582014851,
+              0.1785151258201485
+            ],
+            "B": [
+              0.1156581894289318,
+              0.1853081894289318
+            ],
+            "C": [
+              0.11018513035838179,
+              0.17983513035838178
+            ]
+          }
+        },
+        "BNSO": {
+          "s": {
+            "A": [
+              0.1999999998404251,
+              0.1999999998404251
+            ],
+            "B": [
+              0.19999999983857053
+            ],
+            "C": [
+              0.19999999985074207,
+              0.19999999985074204
+            ]
+          },
+          "U": {
+            "A": [
+              269.2125620894986,
+              269.19235097808274
+            ],
+            "B": [
+              280.46920009489446
+            ],
+            "C": [
+              211.96408752004962,
+              211.91406348109965
+            ]
+          },
+          "barU": {
+            "A": 269.20245653379067,
+            "B": 280.46920009489446,
+            "C": 211.94407790446962
+          },
+          "iters": 51,
+          "K": {
+            "A": [
+              0.1303499998913449,
+              0.19999999989134493
+            ],
+            "B": [
+              0.13034999989008222,
+              0.19999999989008221
+            ],
+            "C": [
+              0.13034999989836962,
+              0.19999999989836964
+            ]
+          }
+        }
+      },
+      "certificates": {
+        "coordinates": [
+          "A:t0",
+          "A:t1",
+          "B:t0",
+          "C:t0",
+          "C:t1"
+        ],
+        "Delta": [
+          0.2692072222869797,
+          0.300787083861735,
+          0.2708694753411578,
+          0.18864568814097993,
+          0.25943112468286245
+        ],
+        "d_minus_N": [
+          0.5544714815246531,
+          0.57552472257449,
+          0.6305796502274384,
+          0.4257637920939866,
+          0.5029540831219084
+        ],
+        "d_plus_N": [
+          0.8345695218077945,
+          0.8556227628576315,
+          0.9666972985672081,
+          0.6498422243204998,
+          0.7494403585710728
+        ],
+        "d_minus_O": [
+          0.27723574076232654,
+          0.287762361287245,
+          0.6305796502274384,
+          0.255458275256392,
+          0.20118163324876337
+        ],
+        "d_plus_O": [
+          0.41728476090389727,
+          0.42781138142881575,
+          0.9666972985672081,
+          0.38990533459229987,
+          0.2997761434284291
+        ],
+        "mu_N": 0.27879551789800605,
+        "L_N": 1.0617182788382986,
+        "mu_O": 0.05788444954459798,
+        "L_O": 1.0230275802562219,
+        "strong_concavity_O": true,
+        "omega": [
+          0.691424281530749,
+          0.7836640691960927,
+          0.1790525783138783
+        ],
+        "gamma": {
+          "A": 0.3497247805774511,
+          "B": 0.3559138477138382,
+          "C": 0.3357519008114205
+        },
+        "band_translation_span": [
+          0.13034999999999994,
+          0.13034999999999994,
+          0.13034999999999994
+        ],
+        "ell_M": 0.9160844613711343,
+        "BNSE_contraction_test": {
+          "mu_positive": true,
+          "ell_M_below_one_half": false,
+          "discriminant": -0.2688953460986839,
+          "holds": false,
+          "rho_interval": null,
+          "rho_0.3_admissible": false,
+          "contraction_bound_at_rho_0.3": 2.7986961094198803,
+          "best_contraction_bound": 2.7970767051581134
+        },
+        "BNSO_contraction_test": {
+          "mu_positive": true,
+          "ell_M_below_one_half": false,
+          "discriminant": -0.3184690559070618,
+          "holds": false,
+          "rho_interval": null,
+          "rho_0.3_admissible": false,
+          "contraction_bound_at_rho_0.3": 2.8614706369981433,
+          "best_contraction_bound": 2.8305669056390976
+        }
+      },
+      "validation": {
+        "BNSE": {
+          "iterations": 75,
+          "rho": 0.3,
+          "natural_QVI_tolerance": 1e-08,
+          "final_step_residual_inf": 2.9876369989079166e-09,
+          "max_box_violation": 1.2001033222741597e-09,
+          "natural_QVI_residual_inf": 8.281246188790448e-09,
+          "feasible": true,
+          "solver_success": true
+        },
+        "BNSB": {
+          "outer_iterations": 32,
+          "outer_step_residual_inf": 8.00431942948876e-11,
+          "frozen_set_verification_residual_inf": 2.7399083002421776e-11,
+          "outer_fixed_point_residual_inf": 8.00431942948876e-11,
+          "outer_fixed_point_tolerance": 1e-06,
+          "max_box_violation": 2.7399083002421776e-11,
+          "SLSQP_status": 0,
+          "SLSQP_message": "Optimization terminated successfully",
+          "objective": -14.337849326176716,
+          "KKT_stationarity_residual_inf": 7.844412408530843e-08,
+          "objective_gradient_norm_inf": 10.091359164938146,
+          "KKT_relative_residual": 7.773395318031895e-09,
+          "active_constraints": [
+            "upper[A:t0]",
+            "upper[A:t1]",
+            "upper[C:t0]",
+            "upper[C:t1]"
+          ],
+          "active_multipliers": [
+            8.786674745869414,
+            10.091359164938144,
+            5.6760136695323995,
+            6.639583122173481
+          ],
+          "active_tolerance": 1e-05,
+          "finite_difference_audit_of_analytic_gradient": {
+            "0.0001": 1.7347385544042027e-05,
+            "1e-05": 8.026639957137149e-07,
+            "1e-06": 1.7387689226211478e-06,
+            "1e-07": 4.0804843226993626e-05
+          },
+          "KKT_residual_finite_difference_variant": {
+            "0.0001": 1.7425829668127335e-05,
+            "1e-05": 1.5898393712632242e-07,
+            "1e-06": 1.8172130467064562e-06,
+            "1e-07": 1.6626700016786344e-05
+          },
+          "IR_surplus_by_department": {
+            "A": 0.013333161194793774,
+            "B": 0.006223876299884523,
+            "C": 0.007147547878417981
+          },
+          "min_IR_surplus": 0.006223876299884523,
+          "log_objective_is_exact": true,
+          "feasible": true,
+          "outer_fixed_point_converged": true,
+          "multistart": {
+            "starts": 6,
+            "successful_starts": 6,
+            "solution_spread_inf": 5.392746277310678e-09,
+            "objective_spread": 8.436084364404906e-08,
+            "runs": [
+              {
+                "start": 0,
+                "success": true,
+                "objective": -14.33784941053756,
+                "outer_iterations": 64,
+                "outer_residual_inf": 2.793903997044822e-11,
+                "x": [
+                  0.17851512308717732,
+                  0.17851512308717732,
+                  0.15807243676329713,
+                  0.17983512776281319,
+                  0.17983512776281319
+                ]
+              },
+              {
+                "start": 1,
+                "success": true,
+                "objective": -14.337849326176716,
+                "outer_iterations": 32,
+                "outer_residual_inf": 8.00431942948876e-11,
+                "x": [
+                  0.17851512584754758,
+                  0.17851512584754758,
+                  0.1580724421560434,
+                  0.17983513038205373,
+                  0.17983513038205373
+                ]
+              },
+              {
+                "start": 2,
+                "success": true,
+                "objective": -14.337849329538926,
+                "outer_iterations": 28,
+                "outer_residual_inf": 7.857012263023933e-11,
+                "x": [
+                  0.17851512573380957,
+                  0.17851512573380957,
+                  0.15807244195484224,
+                  0.17983513028288323,
+                  0.17983513028288323
+                ]
+              },
+              {
+                "start": 3,
+                "success": true,
+                "objective": -14.337849356475282,
+                "outer_iterations": 55,
+                "outer_residual_inf": 5.838934891144731e-11,
+                "x": [
+                  0.17851512485528176,
+                  0.17851512485528176,
+                  0.15807244022243697,
+                  0.17983512944249852,
+                  0.17983512944249852
+                ]
+              },
+              {
+                "start": 4,
+                "success": true,
+                "objective": -14.337849341140128,
+                "outer_iterations": 34,
+                "outer_residual_inf": 6.494205173623868e-11,
+                "x": [
+                  0.17851512535697184,
+                  0.17851512535697184,
+                  0.15807244120274194,
+                  0.1798351299179456,
+                  0.1798351299179456
+                ]
+              },
+              {
+                "start": 5,
+                "success": true,
+                "objective": -14.337849332071332,
+                "outer_iterations": 52,
+                "outer_residual_inf": 1.5023093880017768e-11,
+                "x": [
+                  0.1785151256534238,
+                  0.1785151256534238,
+                  0.1580724418723761,
+                  0.17983513020018338,
+                  0.17983513020018338
+                ]
+              }
+            ]
+          },
+          "start_rule": "convex combinations (1-w) s^N + w s^O with w in [0.25, 0.4, 0.55, 0.7, 0.85, 0.5]",
+          "reduced_hessian_frozen_problem": {
+            "free_coordinates": [
+              "B:t0"
+            ],
+            "blocked_coordinates": [
+              "A:t0",
+              "A:t1",
+              "C:t0",
+              "C:t1"
+            ],
+            "eigenvalues_h=0.0001": [
+              -443.5731200560777
+            ],
+            "negative_definite_h=0.0001": true,
+            "eigenvalues_h=1e-05": [
+              -443.57197678044355
+            ],
+            "negative_definite_h=1e-05": true,
+            "eigenvalues_h=1e-06": [
+              -443.57198313882407
+            ],
+            "negative_definite_h=1e-06": true
+          },
+          "frozen_set_global_certificate": {
+            "incumbent_log_nash": -14.337849326176716,
+            "incumbent_nash_product": 5.93131726909285e-07,
+            "certified_upper_bound_log_nash": -14.336849326176717,
+            "certified_gap_log_nash": 0.0009999999999994458,
+            "certified_relative_gap_nash_product": 0.001000500166707787,
+            "target_tolerance": 0.001,
+            "certified": true,
+            "search_exhausted": true,
+            "nodes_explored": 3307,
+            "pruned_nodes": 1654,
+            "open_nodes": 0,
+            "smallest_cell_width": 6.801757812499587e-05,
+            "seconds": 95.84206485748291,
+            "aggregate_box": [
+              [
+                0.10886512582014851,
+                0.1156581894289318,
+                0.11018513035838179
+              ],
+              [
+                0.1785151258201485,
+                0.1853081894289318,
+                0.17983513035838178
+              ]
+            ]
+          }
+        },
+        "BNSO": {
+          "outer_iterations": 51,
+          "outer_step_residual_inf": 7.565176263213402e-11,
+          "frozen_set_verification_residual_inf": 5.151168380734816e-11,
+          "outer_fixed_point_residual_inf": 7.565176263213402e-11,
+          "outer_fixed_point_tolerance": 1e-06,
+          "max_box_violation": 0.0,
+          "SLSQP_status": 0,
+          "SLSQP_message": "Optimization terminated successfully",
+          "objective": 761.6157345331548,
+          "KKT_stationarity_residual_inf": 0.0,
+          "objective_gradient_norm_inf": 0.05077087916046766,
+          "KKT_relative_residual": 0.0,
+          "active_constraints": [
+            "upper[A:t0]",
+            "upper[A:t1]",
+            "upper[B:t0]",
+            "upper[C:t0]",
+            "upper[C:t1]"
+          ],
+          "active_multipliers": [
+            0.03392828631728312,
+            0.05077087916046766,
+            0.003519899014473478,
+            0.041966802732373985,
+            0.04699931486759624
+          ],
+          "active_tolerance": 1e-05,
+          "finite_difference_audit_of_analytic_gradient": {
+            "0.0001": 3.3151180758861365e-09,
+            "1e-05": 8.630508453733032e-09,
+            "1e-06": 6.813495310314943e-08,
+            "1e-07": 1.2913869894617958e-06
+          },
+          "KKT_residual_finite_difference_variant": {
+            "0.0001": 0.0,
+            "1e-05": 6.938893903907228e-18,
+            "1e-06": 0.0,
+            "1e-07": 0.0
+          },
+          "feasible": true,
+          "outer_fixed_point_converged": true,
+          "multistart": {
+            "starts": 6,
+            "successful_starts": 6,
+            "solution_spread_inf": 4.0417280633420205e-11,
+            "objective_spread": 6.934897101018578e-12,
+            "runs": [
+              {
+                "start": 0,
+                "success": true,
+                "objective": 761.6157345331478,
+                "outer_iterations": 52,
+                "outer_residual_inf": 9.459277805490274e-11,
+                "x": [
+                  0.19999999980047212,
+                  0.19999999980047212,
+                  0.19999999979815325,
+                  0.199999999813372,
+                  0.19999999981337202
+                ]
+              },
+              {
+                "start": 1,
+                "success": true,
+                "objective": 761.6157345331482,
+                "outer_iterations": 52,
+                "outer_residual_inf": 9.4045549126065e-11,
+                "x": [
+                  0.19999999980162658,
+                  0.19999999980162658,
+                  0.1999999997993211,
+                  0.1999999998144516,
+                  0.1999999998144516
+                ]
+              },
+              {
+                "start": 2,
+                "success": true,
+                "objective": 761.6157345331535,
+                "outer_iterations": 53,
+                "outer_residual_inf": 7.908237953380137e-11,
+                "x": [
+                  0.199999999833189,
+                  0.199999999833189,
+                  0.1999999998312505,
+                  0.19999999984397349,
+                  0.19999999984397349
+                ]
+              },
+              {
+                "start": 3,
+                "success": true,
+                "objective": 761.6157345331509,
+                "outer_iterations": 52,
+                "outer_residual_inf": 8.64629479124801e-11,
+                "x": [
+                  0.19999999981762034,
+                  0.19999999981762034,
+                  0.19999999981550082,
+                  0.19999999982941158,
+                  0.19999999982941158
+                ]
+              },
+              {
+                "start": 4,
+                "success": true,
+                "objective": 761.6157345331526,
+                "outer_iterations": 53,
+                "outer_residual_inf": 8.172079679624744e-11,
+                "x": [
+                  0.19999999982762323,
+                  0.19999999982762323,
+                  0.19999999982561983,
+                  0.19999999983876793,
+                  0.19999999983876793
+                ]
+              },
+              {
+                "start": 5,
+                "success": true,
+                "objective": 761.6157345331548,
+                "outer_iterations": 51,
+                "outer_residual_inf": 7.565176263213402e-11,
+                "x": [
+                  0.1999999998404251,
+                  0.1999999998404251,
+                  0.19999999983857053,
+                  0.19999999985074207,
+                  0.19999999985074204
+                ]
+              }
+            ]
+          },
+          "start_rule": "start 0: uniform s=0.1; start 1: BNSE; starts 2-5: uniform random on the action set, numpy default_rng(20260920)"
+        }
+      },
+      "economics": {
+        "BNSE": {
+          "A": {
+            "exante_utility": 269.18506108961907,
+            "expected_breach_probability": 0.7870715912963828,
+            "expected_monetary_loss_musd": 120.81548926399476,
+            "expected_protection_cost_utils": 0.03449745374534474,
+            "mean_action": 0.12491804700949276
+          },
+          "B": {
+            "exante_utility": 280.4644539182961,
+            "expected_breach_probability": 0.8347066310725091,
+            "expected_monetary_loss_musd": 126.87540792302138,
+            "expected_protection_cost_utils": 0.02282648684551596,
+            "mean_action": 0.07195645609574283
+          },
+          "C": {
+            "exante_utility": 211.93422622176342,
+            "expected_breach_probability": 0.8053228556482164,
+            "expected_monetary_loss_musd": 73.660889119987,
+            "expected_protection_cost_utils": 0.024097189891949207,
+            "mean_action": 0.10484704900776703
+          }
+        },
+        "BNSB": {
+          "A": {
+            "exante_utility": 269.19839425081386,
+            "expected_breach_probability": 0.6800737290215186,
+            "expected_monetary_loss_musd": 104.39131740480312,
+            "expected_protection_cost_utils": 0.05165837868388168,
+            "mean_action": 0.17851512584754758
+          },
+          "B": {
+            "exante_utility": 280.470677794596,
+            "expected_breach_probability": 0.6969973907549525,
+            "expected_monetary_loss_musd": 105.94360339475278,
+            "expected_protection_cost_utils": 0.053903840220063205,
+            "mean_action": 0.1580724421560434
+          },
+          "C": {
+            "exante_utility": 211.94137376964184,
+            "expected_breach_probability": 0.6789809512548761,
+            "expected_monetary_loss_musd": 62.4662475154486,
+            "expected_protection_cost_utils": 0.043348972323044355,
+            "mean_action": 0.17983513038205373
+          }
+        },
+        "BNSO": {
+          "A": {
+            "exante_utility": 269.20245653379067,
+            "expected_breach_probability": 0.6400000002530631,
+            "expected_monetary_loss_musd": 98.2400000388452,
+            "expected_protection_cost_utils": 0.05901699431919427,
+            "mean_action": 0.1999999998404251
+          },
+          "B": {
+            "exante_utility": 280.46920009489446,
+            "expected_breach_probability": 0.6400000002545468,
+            "expected_monetary_loss_musd": 97.28000003869111,
+            "expected_protection_cost_utils": 0.07082039318225561,
+            "mean_action": 0.19999999983857053
+          },
+          "C": {
+            "exante_utility": 211.94407790446962,
+            "expected_breach_probability": 0.6400000002448096,
+            "expected_monetary_loss_musd": 58.88000002252249,
+            "expected_protection_cost_utils": 0.04910213927656863,
+            "mean_action": 0.19999999985074207
+          }
+        },
+        "BNSB_vs_BNSE": {
+          "A": {
+            "exante_utility": {
+              "baseline": 269.18506108961907,
+              "value": 269.19839425081386,
+              "change": 0.013333161194793774,
+              "percent_change": 0.004953157928164075
+            },
+            "expected_breach_probability": {
+              "baseline": 0.7870715912963828,
+              "value": 0.6800737290215186,
+              "change": -0.10699786227486419,
+              "percent_change": -13.594425647942442
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 120.81548926399476,
+              "value": 104.39131740480312,
+              "change": -16.424171859191645,
+              "percent_change": -13.594425647942437
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.03449745374534474,
+              "value": 0.05165837868388168,
+              "change": 0.017160924938536937,
+              "percent_change": 49.745482855680955
+            },
+            "mean_action": {
+              "baseline": 0.12491804700949276,
+              "value": 0.17851512584754758,
+              "change": 0.053597078838054826,
+              "percent_change": 42.90579313490378
+            }
+          },
+          "B": {
+            "exante_utility": {
+              "baseline": 280.4644539182961,
+              "value": 280.470677794596,
+              "change": 0.006223876299884523,
+              "percent_change": 0.002219131948071266
+            },
+            "expected_breach_probability": {
+              "baseline": 0.8347066310725091,
+              "value": 0.6969973907549525,
+              "change": -0.1377092403175566,
+              "percent_change": -16.49792096902536
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 126.87540792302138,
+              "value": 105.94360339475278,
+              "change": -20.9318045282686,
+              "percent_change": -16.49792096902535
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.02282648684551596,
+              "value": 0.053903840220063205,
+              "change": 0.031077353374547246,
+              "percent_change": 136.14602012509027
+            },
+            "mean_action": {
+              "baseline": 0.07195645609574283,
+              "value": 0.1580724421560434,
+              "change": 0.08611598606030058,
+              "percent_change": 119.67791457894695
+            }
+          },
+          "C": {
+            "exante_utility": {
+              "baseline": 211.93422622176342,
+              "value": 211.94137376964184,
+              "change": 0.007147547878417981,
+              "percent_change": 0.0033725311884919146
+            },
+            "expected_breach_probability": {
+              "baseline": 0.8053228556482164,
+              "value": 0.6789809512548761,
+              "change": -0.12634190439334025,
+              "percent_change": -15.68835449127366
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 73.660889119987,
+              "value": 62.4662475154486,
+              "change": -11.194641604538404,
+              "percent_change": -15.19753798559685
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.024097189891949207,
+              "value": 0.043348972323044355,
+              "change": 0.019251782431095148,
+              "percent_change": 79.89223024518351
+            },
+            "mean_action": {
+              "baseline": 0.10484704900776703,
+              "value": 0.17983513038205373,
+              "change": 0.0749880813742867,
+              "percent_change": 71.52140387731046
+            }
+          }
+        },
+        "BNSO_vs_BNSE": {
+          "A": {
+            "exante_utility": {
+              "baseline": 269.18506108961907,
+              "value": 269.20245653379067,
+              "change": 0.017395444171597774,
+              "percent_change": 0.006462262096263342
+            },
+            "expected_breach_probability": {
+              "baseline": 0.7870715912963828,
+              "value": 0.6400000002530631,
+              "change": -0.14707159104331968,
+              "percent_change": -18.68592294140341
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 120.81548926399476,
+              "value": 98.2400000388452,
+              "change": -22.575489225149568,
+              "percent_change": -18.68592294140341
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.03449745374534474,
+              "value": 0.05901699431919427,
+              "change": 0.02451954057384953,
+              "percent_change": 71.07637785341858
+            },
+            "mean_action": {
+              "baseline": 0.12491804700949276,
+              "value": 0.1999999998404251,
+              "change": 0.07508195283093234,
+              "percent_change": 60.10496852006238
+            }
+          },
+          "B": {
+            "exante_utility": {
+              "baseline": 280.4644539182961,
+              "value": 280.46920009489446,
+              "change": 0.0047461765983598525,
+              "percent_change": 0.0016922560174925025
+            },
+            "expected_breach_probability": {
+              "baseline": 0.8347066310725091,
+              "value": 0.6400000002545468,
+              "change": -0.19470663081796225,
+              "percent_change": -23.32635486168176
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 126.87540792302138,
+              "value": 97.28000003869111,
+              "change": -29.59540788433027,
+              "percent_change": -23.326354861681764
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.02282648684551596,
+              "value": 0.07082039318225561,
+              "change": 0.04799390633673965,
+              "percent_change": 210.2553347852019
+            },
+            "mean_action": {
+              "baseline": 0.07195645609574283,
+              "value": 0.19999999983857053,
+              "change": 0.1280435437428277,
+              "percent_change": 177.94587267118504
+            }
+          },
+          "C": {
+            "exante_utility": {
+              "baseline": 211.93422622176342,
+              "value": 211.94407790446962,
+              "change": 0.009851682706198517,
+              "percent_change": 0.004648462346940568
+            },
+            "expected_breach_probability": {
+              "baseline": 0.8053228556482164,
+              "value": 0.6400000002448096,
+              "change": -0.16532285540340674,
+              "percent_change": -20.528767343916485
+            },
+            "expected_monetary_loss_musd": {
+              "baseline": 73.660889119987,
+              "value": 58.88000002252249,
+              "change": -14.780889097464517,
+              "percent_change": -20.066129087021704
+            },
+            "expected_protection_cost_utils": {
+              "baseline": 0.024097189891949207,
+              "value": 0.04910213927656863,
+              "change": 0.025004949384619425,
+              "percent_change": 103.76707614763619
+            },
+            "mean_action": {
+              "baseline": 0.10484704900776703,
+              "value": 0.19999999985074207,
+              "change": 0.09515295084297504,
+              "percent_change": 90.75405721330903
+            }
+          }
+        }
+      },
+      "mean_actions": {
+        "BNSE": [
+          0.12491804700949276,
+          0.07195645609574283,
+          0.10484704900776703
+        ],
+        "BNSB": [
+          0.17851512584754758,
+          0.1580724421560434,
+          0.17983513038205373
+        ],
+        "BNSO": [
+          0.1999999998404251,
+          0.19999999983857053,
+          0.19999999985074207
+        ]
+      },
+      "qualitative_ordering": {
+        "coordination_raises_mean_investment": true,
+        "bargaining_satisfies_participation": true,
+        "welfare_ordering_BNSO_best": true,
+        "some_department_loses_under_BNSO": false
+      }
+    }
+  }
+}
